@@ -1,0 +1,20 @@
+1. Donne le nom et prenom des malades ayant pour mutuelle la LMDE:
+SELECT nom, prenom FROM malade WHERE mutuelle='LMDE'
+
+2. Modifier des données
+UPDATE malade
+SET mutuelle = 'LMDE',
+WHERE numero = '1',
+  nom = 'Querrey',
+  prenom = 'Sam'
+
+3. Supprimer
+DELETE FROM `utilisateur`
+WHERE `date_inscription` < '2012-04-10'
+
+4. IDEES
+Dans malade ajouter une colonne: date de sortie
+
+nouvelles table: Anciens malades dans laquelle on recupere les données des malades
+
+Quand on entre les données d'un malade, on entre en simultané une requete qui affiche les malade au meme nom ou anciens malades.
