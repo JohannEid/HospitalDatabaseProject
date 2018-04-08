@@ -94,7 +94,7 @@ public class Connexion {
         }
     }
 
-    /**
+    /***
      * Méthode qui ajoute la table en parametre dans son ArrayList
      *
      * @param table
