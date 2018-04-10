@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class Hospitalization extends Activity
 {
     private Doctor doctor;

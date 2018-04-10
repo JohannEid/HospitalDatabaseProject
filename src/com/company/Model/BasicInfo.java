@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class BasicInfo
 {
     private String name;

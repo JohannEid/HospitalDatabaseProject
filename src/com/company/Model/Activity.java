@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public abstract class Activity extends ElementHospital
 {
     private Patient patient;

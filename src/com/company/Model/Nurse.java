@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class Nurse extends Employee
 {
     private Service service;

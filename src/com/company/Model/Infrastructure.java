@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public abstract class Infrastructure extends ElementHospital
 {
     private String code;

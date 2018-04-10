@@ -1,3 +1,5 @@
+package com.company.Control;
+
 import com.jcraft.jsch.*;
 
 /**
@@ -20,7 +22,7 @@ public class SSHTunnel {
      *       Constructors     *
      ************************ */
     /**
-     * Constructeur permettant la connexion à un serveur via un double tunnel
+     * Constructeur permettant la connexion à un serveur via un double tu++++++nel
      * SSH
      *
      * @param username Nom d'utilisateur ECE

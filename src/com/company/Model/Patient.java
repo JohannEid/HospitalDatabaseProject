@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class Patient extends Human
 {
     private String adress;

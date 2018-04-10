@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public abstract class Human extends ElementHospital
 {
     private BasicInfo basicInfo;

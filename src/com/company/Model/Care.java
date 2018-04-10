@@ -1,14 +1,16 @@
-public class Room extends Infrastructure
+package com.company.Model;
+
+public class Care extends Activity
 {
     private Service service;
-    private Watcher watcher;
+    private Room room;
     private int numberOfBeds;
 
-    public Room(String code, Service service, Watcher watcher, int numberOfBeds)
+    public Care(Patient patient, Service service, Room room, int numberOfBeds)
     {
-        super(code);
+        super(patient);
         this.service = service;
-        this.watcher = watcher;
+        this.room = room;
         this.numberOfBeds = numberOfBeds;
     }
 
@@ -20,12 +22,12 @@ public class Room extends Infrastructure
         this.service = service;
     }
 
-    public Watcher getWatcher() {
-        return watcher;
+    public Room getRoom() {
+        return room;
     }
 
-    public void setWatcher(Watcher watcher) {
-        this.watcher = watcher;
+    public void setRoom(Room room) {
+        this.room = room;
     }
 
     public int getNumberOfBeds() {

@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class Service extends Infrastructure
 {
     private Building hostBuilding;

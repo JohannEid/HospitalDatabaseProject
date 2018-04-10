@@ -1,3 +1,5 @@
+package com.company.Model;
+
 public class Building extends Infrastructure
 {
     private Room rooms[];
