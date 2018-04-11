@@ -3,7 +3,6 @@ package com.company.Model;
 public class Employee extends Human
 {
     private int idNumber;
-    private int coucou;
 
     public int getIdNumber()
     {
