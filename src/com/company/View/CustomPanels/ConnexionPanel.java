@@ -19,7 +19,7 @@ public class ConnexionPanel extends ImagePanel
     private Connexion conn;
     private ButtonActionListener actionListener = new ButtonActionListener();
     private JLabel titleLabel = new JLabel("Hospital data login ");
-    private JPanel connexionPanel  = new JPanel(new GridLayout(4, 1, 15, 15));
+    private JPanel connexionPanel = new JPanel();
 
     public ConnexionPanel()
     {
@@ -60,7 +60,6 @@ public class ConnexionPanel extends ImagePanel
         connexionPanel.add(connectButton, constraints);
 
         this.add(connexionPanel);
-
     }
 
 
