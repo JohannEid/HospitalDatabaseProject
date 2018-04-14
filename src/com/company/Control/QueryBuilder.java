@@ -5,12 +5,11 @@ import java.util.ArrayList;
 public class QueryBuilder
 {
 
-
     public static String buildSelectQuery(ArrayList<String> projections)
     {
-        if(projections.size() == 1 ) return projections.get(0);
+        if(projections.size() == 1 ) return "SELECT " +  projections.get(0);
 
-        String query = "SELECT";
+        String query = "SELECT ";
         for (String projection : projections)
         {
             query += projection + ",";
@@ -23,7 +22,7 @@ public class QueryBuilder
 
     public static String buildConditionQuery(String[] conditions, String attribute, String operator)
     {
-        if(conditions.length == 0)return "WHERE" +  conditions[0];
+        if(conditions.length == 0)return "WHERE " +  conditions[0];
         return new String();
         /*
         String query = "WHERE";

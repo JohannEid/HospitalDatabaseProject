@@ -4,6 +4,9 @@
 
 package com.company.View.CustomPanels;
 
+import com.company.Control.MainControl;
+import com.company.Control.ReadDataBase;
+import com.company.Model.ElementHospital;
 import com.jgoodies.forms.factories.DefaultComponentFactory;
 import net.miginfocom.swing.MigLayout;
 
@@ -47,13 +50,15 @@ public class DoctorResearchPanel extends ImagePanel {
     private JTextField textField5;
     private JCheckBox allCheckbox;
     private JButton button1;
+    private JScrollPane scrollPane1;
+    private ElementHospital[] elementsToDisplay;
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-END:variables
 
 
     public DoctorResearchPanel() {
         super("images/doctor.jpg");
         initComponents();
-
+        button1.addActionListener(new SubmitListener());
     }
 
     private void createUIComponents() {
@@ -93,6 +98,7 @@ public class DoctorResearchPanel extends ImagePanel {
         textField5 = new JTextField();
         allCheckbox = new JCheckBox();
         button1 = new JButton();
+        scrollPane1 = new JScrollPane();
 
         //======== this ========
 
@@ -106,6 +112,7 @@ public class DoctorResearchPanel extends ImagePanel {
         setLayout(new MigLayout(
             "hidemode 3",
             // columns
+            "[fill]" +
             "[fill]" +
             "[fill]" +
             "[fill]" +
@@ -214,100 +221,105 @@ public class DoctorResearchPanel extends ImagePanel {
             "[]" +
             "[]" +
             "[]" +
+            "[]" +
             "[]"));
 
         //---- label2 ----
         label2.setText("Search information");
-        add(label2, "cell 0 4 33 1");
+        add(label2, "cell 0 4 34 1");
 
         //---- label12 ----
         label12.setText("Select information ");
-        add(label12, "cell 44 4 5 1");
-        add(label1, "cell 6 5 3 1");
+        add(label12, "cell 45 4 5 1");
+        add(label1, "cell 6 5 4 1");
         add(label3, "cell 6 6");
-        add(separator2, "cell 0 8 26 1");
+        add(separator2, "cell 0 8 27 1");
 
         //---- phoneCheckBox ----
         phoneCheckBox.setText("Phone number");
         phoneCheckBox.setBackground(null);
         phoneCheckBox.setBorderPaintedFlat(true);
         phoneCheckBox.setOpaque(false);
-        add(phoneCheckBox, "cell 47 8");
-        add(label4, "cell 3 9 17 1");
+        add(phoneCheckBox, "cell 48 8");
+        add(label4, "cell 3 9 18 1");
         add(label5, "cell 6 10");
 
         //---- label7 ----
         label7.setText("Phone number");
         label7.setLabelFor(textField1);
         add(label7, "cell 0 11");
-        add(textField2, "cell 1 11 23 1");
+        add(textField2, "cell 1 11 24 1");
 
         //---- nameCheckBox ----
         nameCheckBox.setText("Name");
         nameCheckBox.setBackground(null);
         nameCheckBox.setOpaque(false);
-        add(nameCheckBox, "cell 47 11");
+        add(nameCheckBox, "cell 48 11");
 
         //---- label8 ----
         label8.setText("Name ");
         add(label8, "cell 0 14");
-        add(textField3, "cell 1 14 23 1");
+        add(textField3, "cell 1 14 24 1");
 
         //---- firstNameCheckBox ----
         firstNameCheckBox.setText("First name");
         firstNameCheckBox.setOpaque(false);
-        add(firstNameCheckBox, "cell 47 14");
+        add(firstNameCheckBox, "cell 48 14");
         add(label6, "cell 6 15");
 
         //---- label9 ----
         label9.setText("First name");
         add(label9, "cell 0 17");
-        add(textField4, "cell 1 17 23 1");
+        add(textField4, "cell 1 17 24 1");
 
         //---- adressCheckBox ----
         adressCheckBox.setText("Adress");
-        add(adressCheckBox, "cell 47 17");
+        adressCheckBox.setOpaque(false);
+        add(adressCheckBox, "cell 48 17");
         add(label13, "cell 0 18");
-        add(textField6, "cell 1 18 23 1");
+        add(textField6, "cell 1 18 24 1");
 
         //---- idCheckbox ----
         idCheckbox.setText("Personal number");
         idCheckbox.setOpaque(false);
-        add(idCheckbox, "cell 47 18");
-        add(separator1, "cell 0 19 26 1");
+        add(idCheckbox, "cell 48 18");
+        add(separator1, "cell 0 19 27 1");
 
         //---- specialityCheckbox ----
         specialityCheckbox.setText("Speciality");
         specialityCheckbox.setOpaque(false);
-        add(specialityCheckbox, "cell 47 19");
+        add(specialityCheckbox, "cell 48 19");
 
         //---- label11 ----
         label11.setText("Personal number");
         add(label11, "cell 0 23");
-        add(textField1, "cell 3 23 22 1");
+        add(textField1, "cell 3 23 23 1");
 
         //---- label10 ----
         label10.setText("Speciality");
         add(label10, "cell 0 25");
-        add(textField5, "cell 1 25 24 1");
+        add(textField5, "cell 1 25 25 1");
 
         //---- allCheckbox ----
         allCheckbox.setText("All");
         allCheckbox.setOpaque(false);
-        add(allCheckbox, "cell 47 25");
+        add(allCheckbox, "cell 48 25");
 
         //---- button1 ----
         button1.setText("Submit");
-        add(button1, "cell 9 30 22 1");
+        add(button1, "cell 10 30 22 1");
+        add(scrollPane1, "cell 0 30 49 10");
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
 
-     class submitListener implements ActionListener
+     class SubmitListener implements ActionListener
     {
         public void actionPerformed(ActionEvent e)
         {
             if(e.getSource().equals(button1))
             {
+                elementsToDisplay =   ReadDataBase.readFromDatabase(selectProjection(),"employe, docteur", MainControl.conn);
+                scrollPane1.add(new JList<ElementHospital>(elementsToDisplay));
 
             }
         }
@@ -317,7 +329,7 @@ public class DoctorResearchPanel extends ImagePanel {
             ArrayList<String> projectTab = new ArrayList<String>();
             if(allCheckbox.isSelected())
             {
-                projectTab.add("*");
+                projectTab.add("* ");
                 return  projectTab;
             }
 

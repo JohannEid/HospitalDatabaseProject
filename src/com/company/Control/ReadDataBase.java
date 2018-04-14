@@ -1,5 +1,6 @@
 package com.company.Control;
 
+import com.company.Model.BasicInfo;
 import com.company.Model.Doctor;
 import com.company.Model.ElementHospital;
 
@@ -10,14 +11,17 @@ import java.util.ArrayList;
 
 public class ReadDataBase
 {
-    static ElementHospital[] readPatientFromInsurance( ArrayList<String> projections, String tableName, Connexion conn)
+    public static ElementHospital[] readFromDatabase( ArrayList<String> projections, String tableName, Connexion conn)
     {
-        String query = QueryBuilder.buildSelectQuery(projections) + "FROM" + tableName;
+
+        String specialCondition = (tableName == "employe, docteur") ? "docteur.numero = employe.numero": "";
+
+        String query = QueryBuilder.buildSelectQuery(projections) + "FROM " + tableName + " WHERE " + specialCondition +   " ;";
         try
         {
             Statement st = conn.conn.createStatement();
             ResultSet rs = st.executeQuery(query);
-           if(tableName == "Doctor")  return readDoctorTable(rs);
+           if(tableName == "employe, docteur")  return readDoctorTable(rs);
 
             st.close();
 
@@ -33,21 +37,26 @@ public class ReadDataBase
 
     private static ElementHospital[] readDoctorTable(ResultSet rs)
     {
-        /*
-        while (rs.next())
-        {
-            int id = rs.getInt("id");
-            String firstName = rs.getString("first_name");
-            String lastName = rs.getString("last_name");
-            Date dateCreated = rs.getDate("date_created");
-            boolean isAdmin = rs.getBoolean("is_admin");
-            int numPoints = rs.getInt("num_points");
+        ArrayList<Doctor> doctors= new ArrayList<Doctor>();
+        try {
+            while (rs.next()) {
 
+                String name = rs.getString("nom");
+                String firstName = rs.getString("prenom");
+                String adress = rs.getString("adresse");
+                String phone = rs.getString("tel");
+                String speciality = rs.getString("Specialite");
+                int number  =rs.getInt("numero");
+
+                doctors.add(new Doctor(new BasicInfo(name, firstName, phone, adress), number, speciality));
+            }
         }
-        */
+        catch(Exception ex)
+        {
+            JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+        }
 
-
-        return new Doctor[10];
+        return doctors.toArray(new Doctor[doctors.size()]);
 
     }
 

@@ -1,6 +1,7 @@
 package com.company.View.CustomPanels;
 
 import com.company.Control.Connexion;
+import com.company.Control.MainControl;
 
 import javax.swing.*;
 import java.awt.*;
@@ -16,7 +17,6 @@ public class ConnexionPanel extends ImagePanel
     private JTextField userPasswordText = new JTextField();
     GridBagConstraints constraints  = new GridBagConstraints();
     private JButton    connectButton = new JButton("Connect");
-    private Connexion conn;
     private ButtonActionListener actionListener = new ButtonActionListener();
     private JLabel titleLabel = new JLabel("Hospital data login ");
     private JPanel connexionPanel = new JPanel();
@@ -82,7 +82,7 @@ public class ConnexionPanel extends ImagePanel
         {
             try
             {
-                conn = new Connexion(dataBaseNameText.getText(), userLoginText.getText(), userPasswordText.getText());
+                MainControl.conn = new Connexion(dataBaseNameText.getText(), userLoginText.getText(), userPasswordText.getText());
                 JOptionPane.showMessageDialog(null , "Successfully connected to "  + dataBaseNameText.getText() + "!!" ,
                         "Connexion successful", JOptionPane.INFORMATION_MESSAGE);
             }

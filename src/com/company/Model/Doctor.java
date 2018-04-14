@@ -2,20 +2,20 @@ package com.company.Model;
 
 public class Doctor extends Employee
 {
-    EDoctorSpeciality speciality;
+    String speciality;
 
 
-    public Doctor(BasicInfo basicInfo, int idNumber, EDoctorSpeciality speciality)
+    public Doctor(BasicInfo basicInfo, int idNumber, String speciality)
     {
         super(basicInfo, idNumber);
         this.speciality = speciality;
     }
 
-    public EDoctorSpeciality getSpeciality() {
+    public String getSpeciality() {
         return speciality;
     }
 
-    public void setSpeciality(EDoctorSpeciality speciality) {
+    public void setSpeciality(String speciality) {
         this.speciality = speciality;
     }
 }

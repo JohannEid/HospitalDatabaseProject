@@ -5,56 +5,56 @@ new FormModel {
 	root: new FormRoot {
 		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
 			"$layoutConstraints": "hidemode 3"
-			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
-			"$rowConstraints": "[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]"
+			"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+			"$rowConstraints": "[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]"
 		} ) {
 			name: "this"
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label2"
 				"text": "Search information"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 4 32 1"
+				"value": "cell 0 4 34 1"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label12"
 				"text": "Select information "
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 43 4 16 1"
+				"value": "cell 45 4 5 1"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label1"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 5 5 3 1"
+				"value": "cell 6 5 4 1"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label3"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 5 6"
+				"value": "cell 6 6"
 			} )
 			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
 				name: "separator2"
 				"text": "Personal information"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 8 25 1"
+				"value": "cell 0 8 27 1"
 			} )
 			add( new FormComponent( "javax.swing.JCheckBox" ) {
-				name: "checkBox1"
+				name: "phoneCheckBox"
 				"text": "Phone number"
 				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
 				"borderPaintedFlat": true
 				"opaque": false
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 46 8"
+				"value": "cell 48 8"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label4"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 2 9 17 1"
+				"value": "cell 3 9 18 1"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label5"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 5 10"
+				"value": "cell 6 10"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label7"
@@ -66,15 +66,15 @@ new FormModel {
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "textField2"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 1 11 23 1"
+				"value": "cell 1 11 24 1"
 			} )
 			add( new FormComponent( "javax.swing.JCheckBox" ) {
-				name: "checkBox2"
+				name: "nameCheckBox"
 				"text": "Name"
 				"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
 				"opaque": false
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 46 11"
+				"value": "cell 48 11"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label8"
@@ -85,19 +85,19 @@ new FormModel {
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "textField3"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 1 14 22 1"
+				"value": "cell 1 14 24 1"
 			} )
 			add( new FormComponent( "javax.swing.JCheckBox" ) {
-				name: "checkBox3"
+				name: "firstNameCheckBox"
 				"text": "First name"
 				"opaque": false
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 46 14"
+				"value": "cell 48 14"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label6"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 5 15"
+				"value": "cell 6 15"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label9"
@@ -108,62 +108,85 @@ new FormModel {
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "textField4"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 1 17 22 1"
+				"value": "cell 1 17 24 1"
 			} )
 			add( new FormComponent( "javax.swing.JCheckBox" ) {
-				name: "checkBox4"
+				name: "adressCheckBox"
+				"text": "Adress"
+				"opaque": false
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 48 17"
+			} )
+			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+				name: "label13"
+				"textWithMnemonic": "Adress"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 18"
+			} )
+			add( new FormComponent( "javax.swing.JTextField" ) {
+				name: "textField6"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 1 18 24 1"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "idCheckbox"
 				"text": "Personal number"
 				"opaque": false
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 46 17"
+				"value": "cell 48 18"
 			} )
 			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
 				name: "separator1"
 				"text": "Medical information"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 18 25 1"
+				"value": "cell 0 19 27 1"
 			} )
 			add( new FormComponent( "javax.swing.JCheckBox" ) {
-				name: "checkBox5"
+				name: "specialityCheckbox"
 				"text": "Speciality"
 				"opaque": false
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 46 18"
+				"value": "cell 48 19"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label11"
 				"text": "Personal number"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 22"
+				"value": "cell 0 23"
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "textField1"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 2 22 22 1"
-			} )
-			add( new FormComponent( "javax.swing.JCheckBox" ) {
-				name: "checkBox6"
-				"text": "All"
-				"opaque": false
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 46 22"
+				"value": "cell 3 23 23 1"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label10"
 				"text": "Speciality"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 24"
+				"value": "cell 0 25"
 			} )
 			add( new FormComponent( "javax.swing.JTextField" ) {
 				name: "textField5"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 1 24 23 1"
+				"value": "cell 1 25 25 1"
+			} )
+			add( new FormComponent( "javax.swing.JCheckBox" ) {
+				name: "allCheckbox"
+				"text": "All"
+				"opaque": false
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 48 25"
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "button1"
 				"text": "Submit"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 8 29 22 1"
+				"value": "cell 10 30 22 1"
+			} )
+			add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+				name: "scrollPane1"
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 30 49 10"
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 0, 0 )
