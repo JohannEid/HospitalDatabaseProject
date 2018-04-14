@@ -23,7 +23,7 @@ public class Connexion {
      * Attributs prives : connexion JDBC, statement, ordre requete et resultat
      * requete
      */
-    private Connection conn;
+    public Connection conn;
     private Statement stmt;
     private ResultSet rset;
     private ResultSetMetaData rsetMeta;

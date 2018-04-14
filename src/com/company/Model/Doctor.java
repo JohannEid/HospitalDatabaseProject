@@ -4,6 +4,7 @@ public class Doctor extends Employee
 {
     EDoctorSpeciality speciality;
 
+
     public Doctor(BasicInfo basicInfo, int idNumber, EDoctorSpeciality speciality)
     {
         super(basicInfo, idNumber);
