@@ -1,12 +1,14 @@
 package com.company.Control;
 
+import java.util.ArrayList;
+
 public class QueryBuilder
 {
 
 
-    public static String buildSelectQuery(String[] projections)
+    public static String buildSelectQuery(ArrayList<String> projections)
     {
-        if(projections.length == 1 ) return projections[0];
+        if(projections.size() == 1 ) return projections.get(0);
 
         String query = "SELECT";
         for (String projection : projections)

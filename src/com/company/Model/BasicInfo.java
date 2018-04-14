@@ -5,12 +5,14 @@ public class BasicInfo
     private String name;
     private String firstName;
     private String phoneNumber;
+    private String adress;
 
-    public BasicInfo(String name, String firstName, String phoneNumber)
+    public BasicInfo(String name, String firstName, String phoneNumber, String adress)
     {
         this.name = name;
         this.firstName = firstName;
         this.phoneNumber = phoneNumber;
+        this.adress = adress;
     }
 
     public String getName() {
@@ -35,5 +37,13 @@ public class BasicInfo
 
     public void setPhoneNumber(String phoneNumber) {
         this.phoneNumber = phoneNumber;
+    }
+
+    public String getAdress() {
+        return adress;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
     }
 }
