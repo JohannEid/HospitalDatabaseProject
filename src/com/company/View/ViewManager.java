@@ -42,7 +42,7 @@ public class ViewManager extends JFrame {
 
         this.setContentPane(tabbedPane);
         this.pack();
-        this.setSize(new Dimension(940,560));
+        this.setSize(new Dimension(1600,1200));
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
 

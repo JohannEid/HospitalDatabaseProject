@@ -3,21 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5f021c52-a5a2-4bc9-9187-99803dff5a5a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/Connexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/Connexion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Superviser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Superviser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/CustomPanelTest$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/CustomPanelTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/CustomPanelTest.jfd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Doctor.java" afterDir="false" />
@@ -72,7 +57,7 @@
       <file leaf-file-name="ConnexionPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
+            <state relative-caret-position="1155">
               <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
             </state>
           </provider>
@@ -81,8 +66,8 @@
       <file leaf-file-name="DoctorResearchPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="324" column="9" lean-forward="true" selection-start-line="324" selection-start-column="9" selection-end-line="324" selection-end-column="9" />
+            <state relative-caret-position="165">
+              <caret line="322" selection-start-line="322" selection-end-line="322" />
               <folding>
                 <marker date="1523719971476" expanded="true" signature="542:1785" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
                 <marker date="1523719971476" expanded="true" signature="2097:9491" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
@@ -101,7 +86,7 @@
       <file leaf-file-name="ViewManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
+            <state relative-caret-position="360">
               <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -113,7 +98,7 @@
       <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ImagePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
+            <state relative-caret-position="285">
               <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -254,7 +239,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -314,8 +298,9 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -447,7 +432,8 @@
       <workItem from="1523695132960" duration="1005000" />
       <workItem from="1523697036484" duration="8872000" />
       <workItem from="1523710972142" duration="6062000" />
-      <workItem from="1523718357211" duration="1902000" />
+      <workItem from="1523718357211" duration="1954000" />
+      <workItem from="1523720555619" duration="7000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1522943671427</created>
@@ -575,11 +561,18 @@
       <option name="project" value="LOCAL" />
       <updated>1523345481762</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Adding graphics">
+      <created>1523720290201</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1523720290201</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55424000" />
+    <option name="totallyTimeSpent" value="55483000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -591,12 +584,11 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
+    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48424545" weight="0.32543105" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -604,31 +596,32 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498618" weight="0.3297414" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4859038" visible="true" weight="0.35021552" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4859038" weight="0.35021552" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49530128" weight="0.3286638" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4941957" visible="true" weight="0.18960752" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.19181868" />
       <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
-      <window_info id="Structure" order="1" sideWeight="0.5058043" side_tool="true" visible="true" weight="0.18960752" />
+      <window_info id="Structure" order="1" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.19181868" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" sideWeight="0.5016077" side_tool="true" weight="0.25262576" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49695966" weight="0.23814656" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Console" order="9" />
-      <window_info id="Job Explorer" order="8" weight="0.32946378" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32991913" />
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48424545" weight="0.32543105" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865228" weight="0.32912722" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32991913" />
+      <window_info id="Project Explorer" order="4" weight="0.32946378" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" id="FAQ Robot" order="6" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info id="DB Browser" order="5" weight="0.32946378" />
-      <window_info id="Project Explorer" order="4" weight="0.32946378" />
-      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info id="Job Explorer" order="8" weight="0.32946378" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Console" order="9" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -894,10 +887,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="188">
           <caret line="288" lean-forward="true" selection-start-line="288" selection-end-line="288" />
-          <folding>
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6320#6321#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -969,7 +958,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="360">
           <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -986,14 +975,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="291">
+        <state relative-caret-position="1155">
           <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ImagePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
+        <state relative-caret-position="285">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1022,8 +1011,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="324" column="9" lean-forward="true" selection-start-line="324" selection-start-column="9" selection-end-line="324" selection-end-column="9" />
+        <state relative-caret-position="165">
+          <caret line="322" selection-start-line="322" selection-end-line="322" />
           <folding>
             <marker date="1523719971476" expanded="true" signature="542:1785" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
             <marker date="1523719971476" expanded="true" signature="2097:9491" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
