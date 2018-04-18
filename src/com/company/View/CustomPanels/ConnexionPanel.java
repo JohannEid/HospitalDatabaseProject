@@ -82,13 +82,16 @@ public class ConnexionPanel extends ImagePanel
         {
             try
             {
-                MainControl.conn = new Connexion(dataBaseNameText.getText(), userLoginText.getText(), userPasswordText.getText());
+              //  MainControl.conn = new Connexion(dataBaseNameText.getText(), userLoginText.getText(), userPasswordText.getText());
+                MainControl.conn = new Connexion("hopital", "root", "root");
                 JOptionPane.showMessageDialog(null , "Successfully connected to "  + dataBaseNameText.getText() + "!!" ,
                         "Connexion successful", JOptionPane.INFORMATION_MESSAGE);
+                MainControl.setConnected(true);
             }
             catch(Exception ex)
             {
                 JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+                MainControl.setConnected(false);
             }
         }
     }

@@ -5,7 +5,7 @@ public class Doctor extends Employee
     String speciality;
 
 
-    public Doctor(BasicInfo basicInfo, int idNumber, String speciality)
+    public Doctor(BasicInfo basicInfo, Integer idNumber, String speciality)
     {
         super(basicInfo, idNumber);
         this.speciality = speciality;
@@ -17,5 +17,11 @@ public class Doctor extends Employee
 
     public void setSpeciality(String speciality) {
         this.speciality = speciality;
+    }
+
+    public String toString()
+    {
+        String specDisplay = (speciality != null)? " Speciality : " + speciality : "";
+        return super.toString() +specDisplay;
     }
 }

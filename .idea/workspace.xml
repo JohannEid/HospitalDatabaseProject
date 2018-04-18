@@ -3,11 +3,35 @@
   <component name="ChangeListManager">
     <list default="true" id="5f021c52-a5a2-4bc9-9187-99803dff5a5a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/MainControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/MainControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/ElementHospital.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/ElementHospital.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Human.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Human.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Nurse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Nurse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Superviser.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Superviser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorManagement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorManagement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$SubmitListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.jfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Control/MainControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/MainControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Model/Doctor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Doctor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Superviser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Superviser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Model/ElementHospital.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/ElementHospital.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Employee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Human.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.jfd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" afterDir="false" />
@@ -45,20 +69,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DoctorManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java">
+      <file leaf-file-name="ViewManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+            <state relative-caret-position="330">
+              <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnexionPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java">
+      <file leaf-file-name="MainControl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Control/MainControl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1155">
-              <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+            <state relative-caret-position="195">
+              <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+              <folding>
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#241#242#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -66,52 +97,23 @@
       <file leaf-file-name="DoctorResearchPanel.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="322" selection-start-line="322" selection-end-line="322" />
+            <state relative-caret-position="15">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
               <folding>
-                <marker date="1523719971476" expanded="true" signature="542:1785" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-                <marker date="1523719971476" expanded="true" signature="2097:9491" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <element signature="method#createUIComponents#0;class#DoctorResearchPanel#0" />
+                <element signature="method#initComponents#0;class#DoctorResearchPanel#0" />
+                <element signature="e#11289#11297#0" expanded="true" />
+                <marker date="1523989845754" expanded="true" signature="757:1986" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorResearchPanel.jfd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner">
-            <state paletteWidth="431" propertiesWidth="255" />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ViewManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImagePanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ImagePanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NurseManagementPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/NurseManagementPanel.java">
+      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Helper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -119,8 +121,8 @@
       <file leaf-file-name="ReadDataBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="57" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="630">
+              <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,17 +133,44 @@
       <file leaf-file-name="QueryBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+            <state relative-caret-position="540">
+              <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorUpdatePanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java">
+      <file leaf-file-name="Predicate.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Predicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="375">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SSHTunnel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Control/SSHTunnel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EDoctorSpeciality.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/EDoctorSpeciality.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EInsurance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/EInsurance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -168,11 +197,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Patient.java" />
-        <option value="$PROJECT_DIR$/src/EShift.java" />
-        <option value="$PROJECT_DIR$/src/Doctor.java" />
-        <option value="$PROJECT_DIR$/src/EDoctorSpeciality.java" />
-        <option value="$PROJECT_DIR$/src/Watcher.java" />
         <option value="$PROJECT_DIR$/src/Superviser.java" />
         <option value="$PROJECT_DIR$/src/Service.java" />
         <option value="$PROJECT_DIR$/src/Room.java" />
@@ -196,7 +220,6 @@
         <option value="$PROJECT_DIR$/src/com/company/Model/Building.java" />
         <option value="$PROJECT_DIR$/src/com/company/Control/Utilities.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/ConnexionMenu.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Model/Employee.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/DoctorManagementView.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/DoctorManagementPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/Main.java" />
@@ -205,19 +228,25 @@
         <option value="$PROJECT_DIR$/src/com/company/View/NurseManagementPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagementPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/CustomPanelTest.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/Control/Connexion.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Model/ElementHospital.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Model/Doctor.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Superviser.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Control/MainControl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/ViewManager.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/Activity.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/ElementHospital.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/Human.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Control/DataTypes.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Control/DataType.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/Employee.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/Doctor.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.jfd" />
+        <option value="$PROJECT_DIR$/src/com/company/Control/MainControl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Helper.java" />
         <option value="$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/ViewManager.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java" />
       </list>
     </option>
@@ -276,6 +305,14 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="company" type="462c0819:PsiDirectoryNode" />
               <item name="Control" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HospitalFInalProject" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HospitalFInalProject" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="company" type="462c0819:PsiDirectoryNode" />
+              <item name="Model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HospitalFInalProject" type="b2602c69:ProjectViewProjectNode" />
@@ -434,6 +471,10 @@
       <workItem from="1523710972142" duration="6062000" />
       <workItem from="1523718357211" duration="1954000" />
       <workItem from="1523720555619" duration="7000" />
+      <workItem from="1523964028373" duration="5337000" />
+      <workItem from="1523972893541" duration="10241000" />
+      <workItem from="1523983437773" duration="6515000" />
+      <workItem from="1523998120524" duration="600000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1522943671427</created>
@@ -572,7 +613,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55483000" />
+    <option name="totallyTimeSpent" value="78176000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -584,30 +625,29 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="-4" width="1855" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="64" y="-11" width="1857" height="1092" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="9" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.5140962" side_tool="true" visible="true" weight="0.35021552" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.514649" side_tool="true" weight="0.35021552" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498618" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4859038" weight="0.35021552" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48535103" weight="0.3297414" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49530128" weight="0.3286638" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49253732" visible="true" weight="0.19181868" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.8689884" visible="true" weight="0.20563847" />
       <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
-      <window_info id="Structure" order="1" sideWeight="0.5074627" side_tool="true" visible="true" weight="0.19181868" />
+      <window_info id="Structure" order="1" sideWeight="0.1310116" side_tool="true" weight="0.19402985" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info id="Favorites" order="6" sideWeight="0.5016077" side_tool="true" weight="0.25262576" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49695966" weight="0.23814656" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49695966" weight="0.29094827" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32991913" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48424545" weight="0.32543105" />
@@ -623,6 +663,43 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Console" order="9" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="DB Execution Console" order="7" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info id="Image Layers" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48535103" visible="true" weight="0.35021552" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="DB Browser" order="5" weight="0.32946378" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Project Explorer" order="4" weight="0.32946378" />
+      <window_info id="Favorites" order="6" sideWeight="0.5016077" side_tool="true" weight="0.25262576" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49530128" weight="0.3286638" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.514649" side_tool="true" visible="true" weight="0.35021552" />
+      <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48424545" weight="0.32543105" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info id="Job Explorer" order="8" weight="0.32946378" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="FAQ Robot" order="6" />
+      <window_info id="Structure" order="1" sideWeight="0.1310116" side_tool="true" visible="true" weight="0.19402985" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.8689884" visible="true" weight="0.19402985" />
+      <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="10" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="bottom" id="Console" order="9" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498618" weight="0.3297414" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32991913" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865228" weight="0.32912722" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49695966" weight="0.23814656" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -678,32 +755,8 @@
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java</url>
-          <line>320</line>
-          <properties />
-          <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java</url>
-          <line>39</line>
-          <properties />
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java</url>
-          <line>21</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="21" />
+      <option name="time" value="56" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -711,27 +764,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="50" lean-forward="true" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/production/HospitalFInalProject/ElementHospital.class" />
-    <entry file="file://$PROJECT_DIR$/HospitalFInalProject.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" />
-    <entry file="file://$PROJECT_DIR$/src/test.java" />
-    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ClassNotFoundException.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/ReflectiveOperationException.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Exception.java" />
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Class.java" />
@@ -739,13 +771,6 @@
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2205" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/EInsurance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/Care.java">
@@ -766,13 +791,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Infrastructure.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -804,24 +822,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="19" column="1" selection-start-line="19" selection-start-column="1" selection-end-line="19" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/Room.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
           <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/hopital.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3360">
-          <caret line="224" column="95" selection-start-line="224" selection-start-column="91" selection-end-line="224" selection-end-column="95" />
         </state>
       </provider>
     </entry>
@@ -840,45 +844,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/sql/ResultSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5658">
           <caret line="147" column="17" selection-start-line="147" selection-start-column="17" selection-end-line="147" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/BasicInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="29" lean-forward="true" selection-start-line="14" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Human.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/ElementHospital.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -897,20 +866,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/EDoctorSpeciality.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Doctor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/Superviser.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -918,71 +873,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/SSHTunnel.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/hopital.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="224" column="95" selection-start-line="224" selection-start-column="91" selection-end-line="224" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Building.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/Connexion.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/javax/swing/AbstractButton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        <state relative-caret-position="131">
+          <caret line="2021" selection-start-line="2021" selection-end-line="2021" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/MainControl.java">
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="198">
+          <caret line="234" column="18" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#10065#10066#0" expanded="true" />
+            <element signature="e#10148#10149#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Infrastructure.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="30" column="50" selection-start-line="30" selection-start-column="50" selection-end-line="30" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1155">
-          <caret line="82" column="15" selection-start-line="82" selection-start-column="15" selection-end-line="82" selection-end-column="15" />
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ImagePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
+        <state relative-caret-position="330">
           <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -990,10 +929,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/BasicInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/Connexion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="31" column="7" lean-forward="true" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/sql/Statement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="66" column="7" lean-forward="true" selection-start-line="66" selection-start-column="7" selection-end-line="66" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Human.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="120">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -1004,18 +985,121 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="92" column="115" lean-forward="true" selection-start-line="92" selection-start-column="14" selection-end-line="92" selection-end-column="115" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.jfd">
       <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="431" propertiesWidth="255" />
+        <state paletteWidth="431" propertiesWidth="255" structureHeight="334" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/ElementHospital.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/DataType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="37" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/MainControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="15" selection-end-column="4" />
+          <folding>
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#241#242#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/EDoctorSpeciality.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/EInsurance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="28" column="41" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/SSHTunnel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="27" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/util/function/Predicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="39" column="28" selection-start-line="39" selection-start-column="28" selection-end-line="39" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="50" column="39" selection-start-line="50" selection-start-column="39" selection-end-line="50" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="322" selection-start-line="322" selection-end-line="322" />
+        <state relative-caret-position="15">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
           <folding>
-            <marker date="1523719971476" expanded="true" signature="542:1785" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1523719971476" expanded="true" signature="2097:9491" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <element signature="method#createUIComponents#0;class#DoctorResearchPanel#0" />
+            <element signature="method#initComponents#0;class#DoctorResearchPanel#0" />
+            <element signature="e#11289#11297#0" expanded="true" />
+            <marker date="1523989845754" expanded="true" signature="757:1986" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>

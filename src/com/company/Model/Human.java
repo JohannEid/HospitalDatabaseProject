@@ -16,4 +16,9 @@ public abstract class Human extends ElementHospital
     public void setBasicInfo(BasicInfo basicInfo) {
         this.basicInfo = basicInfo;
     }
+
+    public String toString()
+    {
+        return basicInfo.toString();
+    }
 }
