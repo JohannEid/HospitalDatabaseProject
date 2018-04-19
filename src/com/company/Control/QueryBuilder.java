@@ -43,5 +43,4 @@ public class QueryBuilder
         newStr =  str.replaceFirst(oldStr, newStr);
         arr.set(index,newStr);
     }
-
 }

@@ -52,7 +52,7 @@ public class DoctorResearchPanel extends ImagePanel {
     private JTextField idText;
     private JCheckBox idCheckbox;
     private JLabel label10;
-    private JTextField specialityText;
+    private JComboBox specialityCombo;
     private JCheckBox specialityCheckbox;
     private JButton button1;
     private JCheckBox allCheckbox;
@@ -66,6 +66,7 @@ public class DoctorResearchPanel extends ImagePanel {
         initComponents();
         button1.addActionListener(new SubmitListener());
         scrollPane1.setVisible(false);
+        populateComboBox();
 
         allCheckbox.addItemListener(new ItemListener() {
             @Override
@@ -113,7 +114,7 @@ public class DoctorResearchPanel extends ImagePanel {
         idText = new JTextField();
         idCheckbox = new JCheckBox();
         label10 = new JLabel();
-        specialityText = new JTextField();
+        specialityCombo = new JComboBox();
         specialityCheckbox = new JCheckBox();
         button1 = new JButton();
         allCheckbox = new JCheckBox();
@@ -325,7 +326,7 @@ public class DoctorResearchPanel extends ImagePanel {
         //---- label10 ----
         label10.setText("Speciality");
         add(label10, "cell 0 29");
-        add(specialityText, "cell 1 29 26 1");
+        add(specialityCombo, "cell 1 29 26 1");
 
         //---- specialityCheckbox ----
         specialityCheckbox.setText("Speciality");
@@ -343,6 +344,17 @@ public class DoctorResearchPanel extends ImagePanel {
         add(separator3, "cell 0 37 53 1");
         add(scrollPane1, "cell 0 39 59 14");
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
+    }
+
+    private void populateComboBox()
+    {
+        specialityCombo.addItem("");
+        specialityCombo.addItem("Orthopediste");
+        specialityCombo.addItem("Cardiologue");
+        specialityCombo.addItem("Pneumologue");
+        specialityCombo.addItem("Radiologue");
+        specialityCombo.addItem("Traumatologue");
+        specialityCombo.addItem("Anesthesiste");
     }
 
 
@@ -430,9 +442,9 @@ public class DoctorResearchPanel extends ImagePanel {
                 selectTab.add(QueryBuilder.buildCondition(DataType.Num, idText.getText()));
 
             }
-            if(!specialityText.getText().isEmpty())
+            if((String) specialityCombo.getSelectedItem() != "")
             {
-                selectTab.add(QueryBuilder.buildCondition(DataType.Speciality, specialityText.getText()));
+                selectTab.add(QueryBuilder.buildCondition(DataType.Speciality, (String)specialityCombo.getSelectedItem()));
 
             }
             return selectTab;

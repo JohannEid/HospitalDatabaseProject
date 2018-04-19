@@ -7,6 +7,7 @@ public class DataType
     public static final String Num         = "numero";
     public static final String NumRoom     = "no_chambre";
     public static final String NumPatient  = "no_malade";
+    public static final String NumDoctor  = "no_docteur";
     public static final String Watcher     = "surveillant";
     public static final String NumbOfBeds  = "nb_lits";
     public static final String Speciality  = "specialite";
@@ -24,7 +25,7 @@ public class DataType
     public static final String Room        = "chambre";
     public static final String Doctor      = "docteur";
     public static final String Employee    = "employe";
-    public static final String Hospita     = "hospitalisation";
+    public static final String Hospital     = "hospitalisation";
     public static final String Nurse       = "infirmier";
     public static final String Patient     = "malade";
     public static final String Service     = "service";

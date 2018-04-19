@@ -159,8 +159,8 @@ new FormModel {
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 29"
 			} )
-			add( new FormComponent( "javax.swing.JTextField" ) {
-				name: "specialityText"
+			add( new FormComponent( "javax.swing.JComboBox" ) {
+				name: "specialityCombo"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 1 29 26 1"
 			} )

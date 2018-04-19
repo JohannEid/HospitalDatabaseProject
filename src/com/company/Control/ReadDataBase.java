@@ -12,9 +12,6 @@ import java.util.HashMap;
 
 public class ReadDataBase
 {
-    private static final String  WhereKeyWord = " WHERE ";
-    private static final String  FromKeyWord  = " FROM ";
-
 
     public static ElementHospital[] readFromDatabase( ArrayList<String> projections, ArrayList<String> conditions, String tableName, Connexion conn)
     {
@@ -31,9 +28,9 @@ public class ReadDataBase
 
         String conditionQuery = (conditions.size() != 0)?  String.join(" AND ", conditions) : "";
         conditionQuery += (specialCondition != ";" && !conditionQuery.isEmpty())? " AND " : "";
-        String where = (!conditionQuery.isEmpty() ||  specialCondition != ";")? WhereKeyWord : "";
+        String where = (!conditionQuery.isEmpty() ||  specialCondition != ";")? SQLKeyWords.WhereKeyWord : "";
 
-        String query = QueryBuilder.buildSelectQuery(projections) + FromKeyWord + tableName + where + conditionQuery + specialCondition;
+        String query = QueryBuilder.buildSelectQuery(projections) + SQLKeyWords.FromKeyWord + tableName + where + conditionQuery + specialCondition;
         try
         {
             Statement st = conn.conn.createStatement();
