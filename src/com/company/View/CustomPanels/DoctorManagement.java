@@ -6,9 +6,9 @@ public class DoctorManagement extends JTabbedPane {
     private DoctorResearchPanel doctorResearchPanel = new DoctorResearchPanel();
     private DoctorUpdatePanel doctorUpdatePanel = new DoctorUpdatePanel();
 
-    public DoctorManagement() {
+    public DoctorManagement()
+    {
         this.add(doctorResearchPanel, "Doctor(s) information.");
         this.add(doctorUpdatePanel, "Database update.");
     }
-
 }

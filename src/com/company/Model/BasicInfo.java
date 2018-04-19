@@ -46,4 +46,15 @@ public class BasicInfo
     public void setAdress(String adress) {
         this.adress = adress;
     }
+
+    public String toString()
+    {
+        String nameDisplay = (name != null)? "Name: " + name : "";
+        String firstNameDisplay = (firstName != null)? " First name: " + firstName : "";
+        String phoneNumberDisplay = (phoneNumber != null)? " Phone number: " + phoneNumber : "";
+        String adressDisplay = (adress != null)? " Adress: " + adress :  "";
+
+        return nameDisplay + firstNameDisplay + phoneNumberDisplay + adressDisplay;
+        
+    }
 }

@@ -10,7 +10,7 @@ import java.awt.event.KeyEvent;
 
 public class ViewManager extends JFrame {
 
-    private JTabbedPane tabbedPane = new JTabbedPane();
+    private static JTabbedPane tabbedPane = new JTabbedPane();
     private ConnexionPanel connexionPanel = new ConnexionPanel();
     private NurseManagementPanel  nurseManagementPanel = new NurseManagementPanel();
     private DoctorManagement doctorManagement = new DoctorManagement();
@@ -29,12 +29,12 @@ public class ViewManager extends JFrame {
         tabbedPane.add(doctorManagement);
         tabbedPane.setMnemonicAt(1, KeyEvent.VK_2);
         setTabbedPanelSize(1, "Doctors management");
+        tabbedPane.setEnabledAt(1, false);
 
         tabbedPane.add(nurseManagementPanel);
         tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
         setTabbedPanelSize(2, "Nurses management");
-
-
+        tabbedPane.setEnabledAt(2, false);
 
 
         tabbedPane.setTabPlacement(SwingConstants.LEFT);
@@ -53,6 +53,14 @@ public class ViewManager extends JFrame {
         JLabel lab = new JLabel(text);
         lab.setPreferredSize(new Dimension(200, 30));
         tabbedPane.setTabComponentAt(i, lab);
+    }
+
+    public static void changeTabNavigation(boolean isEnabled)
+    {
+        for(int i = 1; i < tabbedPane.getTabCount(); ++i)
+        {
+            tabbedPane.setEnabledAt(i, isEnabled);
+        }
     }
 
 

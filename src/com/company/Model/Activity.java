@@ -4,7 +4,7 @@ public abstract class Activity extends ElementHospital
 {
     private Patient patient;
 
-    public Activity(Patient patient) {
+    public Activity (Patient patient) {
         this.patient = patient;
     }
 
@@ -15,4 +15,6 @@ public abstract class Activity extends ElementHospital
     public void setPatient(Patient patient) {
         this.patient = patient;
     }
+
+
 }
