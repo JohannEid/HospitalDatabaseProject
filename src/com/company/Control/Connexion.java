@@ -79,7 +79,8 @@ public class Connexion {
         // Connexion via le tunnel SSH avec le username et le password ECE
         SSHTunnel ssh = new SSHTunnel(usernameECE, passwordECE);
 
-        if (ssh.connect()) {
+        if (ssh.connect())
+        {
             System.out.println("Connexion reussie");
 
             // url de connexion "jdbc:mysql://localhost:3305/usernameECE"
@@ -206,7 +207,8 @@ public class Connexion {
      * @param requeteMaj
      * @throws SQLException
      */
-    public void executeUpdate(String requeteMaj) throws SQLException {
+    public void executeUpdate(String requeteMaj) throws SQLException
+    {
         stmt.executeUpdate(requeteMaj);
     }
 }

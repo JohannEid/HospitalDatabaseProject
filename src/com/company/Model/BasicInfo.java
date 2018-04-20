@@ -1,5 +1,11 @@
 package com.company.Model;
 
+import com.company.Control.DataType;
+import com.company.Control.QueryBuilder;
+import com.company.Control.SQLKeyWords;
+
+import java.util.ArrayList;
+
 public class BasicInfo
 {
     private String name;
@@ -56,5 +62,60 @@ public class BasicInfo
 
         return nameDisplay + firstNameDisplay + phoneNumberDisplay + adressDisplay;
         
+    }
+
+    public String formatForUpdate()
+    {
+       String setName = (name != null)?
+                QueryBuilder.buildCondition(DataType.Name,name) : "";
+       String setFirstName = (firstName != null)?
+                QueryBuilder.buildCondition(DataType.FirstName, firstName)  : "";
+       String setPhone = (phoneNumber != null)?
+                QueryBuilder.buildCondition(DataType.PhoneNumber,phoneNumber) : "";
+       String setAdress = (adress != null)?
+                QueryBuilder.buildCondition(DataType.Adress, adress): "";
+
+        setName += (setName != "" && setFirstName != "")? ", " : " ";
+        setFirstName += (setFirstName != "" && setPhone != "")? ", " : " ";
+        setPhone += (setPhone != "" && setAdress != "")? ", " : " ";
+        setAdress += " ";
+
+        return setName + setFirstName + setPhone + setAdress;
+    }
+
+    public String formatForInsert()
+    {
+        ArrayList<String> values     = new ArrayList<>();
+        ArrayList<String> parameters = new ArrayList<>();
+
+        parameters.add(DataType.Num);
+        values.add(DataType.mappingAttributeToParam.get(DataType.Num));
+
+        if (name != " ")
+        {
+            parameters.add(DataType.Name);
+            values.add("'"+ name +"'");
+        }
+        if (DataType.mappingAttributeToParam.get(DataType.FirstName) != " ")
+        {
+            parameters.add(DataType.FirstName);
+            values.add("'"+ firstName + "'");
+        }
+
+        if (adress != " ")
+        {
+            parameters.add(DataType.Adress);
+            values.add("'"+ adress  +"'");
+        }
+
+
+        if (DataType.mappingAttributeToParam.get(DataType.PhoneNumber) != " ")
+        {
+            parameters.add(DataType.PhoneNumber);
+            values.add("'"+ phoneNumber +"'");
+        }
+
+        return  QueryBuilder.buildValuesQuery(parameters) + SQLKeyWords.ValuesKeyWord   + QueryBuilder.buildValuesQuery(values);
+
     }
 }
