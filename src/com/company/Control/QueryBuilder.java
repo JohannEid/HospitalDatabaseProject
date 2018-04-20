@@ -43,4 +43,10 @@ public class QueryBuilder
         newStr =  str.replaceFirst(oldStr, newStr);
         arr.set(index,newStr);
     }
+
+    public static String  buildValuesQuery(ArrayList<String> values)
+    {
+        return "(" + String.join(",", values) + ")";
+    }
+
 }

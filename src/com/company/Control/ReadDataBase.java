@@ -3,6 +3,7 @@ package com.company.Control;
 import com.company.Model.BasicInfo;
 import com.company.Model.Doctor;
 import com.company.Model.ElementHospital;
+import com.company.Model.Nurse;
 
 import javax.swing.*;
 import java.sql.ResultSet;
@@ -26,6 +27,14 @@ public class ReadDataBase
             QueryBuilder.replaceAmbiguous(DataType.Num, DataType.Doctor+"."+ DataType.Num, conditions);
         }
 
+        if(tableName ==  DataType.Employee + ", " + DataType.Nurse)
+        {
+            specialCondition = DataType.Nurse+"."+ DataType.Num + " = " +  DataType.Employee+"."+ DataType.Num + ";";
+            QueryBuilder.replaceAmbiguous(DataType.Num, DataType.Nurse+"."+ DataType.Num, projections);
+            QueryBuilder.replaceAmbiguous(DataType.Num, DataType.Nurse+"."+ DataType.Num, conditions);
+        }
+
+
         String conditionQuery = (conditions.size() != 0)?  String.join(" AND ", conditions) : "";
         conditionQuery += (specialCondition != ";" && !conditionQuery.isEmpty())? " AND " : "";
         String where = (!conditionQuery.isEmpty() ||  specialCondition != ";")? SQLKeyWords.WhereKeyWord : "";
@@ -36,7 +45,7 @@ public class ReadDataBase
             Statement st = conn.conn.createStatement();
             ResultSet rs = st.executeQuery(query);
             if(tableName == DataType.Employee + ", " + DataType.Doctor)  return readDoctorTable(rs, selectedProjections);
-
+            if(tableName == DataType.Employee + ", " + DataType.Nurse)  return readNurseTable(rs, selectedProjections);
 
             st.close();
         }
@@ -72,6 +81,34 @@ public class ReadDataBase
         }
 
         return doctors.toArray(new Doctor[doctors.size()]);
+    }
+
+    private static ElementHospital[] readNurseTable(ResultSet rs, HashMap<String, Boolean> selectedProjections)
+    {
+        ArrayList<Nurse> nurses= new ArrayList<Nurse>();
+        try
+        {
+            while (rs.next())
+            {
+
+                String name        = (selectedProjections.get(DataType.Name))? rs.getString(DataType.Name) : null;
+                String firstName   = (selectedProjections.get(DataType.FirstName))? rs.getString(DataType.FirstName) : null;
+                String adress      = (selectedProjections.get(DataType.Adress))? rs.getString(DataType.Adress) : null;
+                String phone       = (selectedProjections.get(DataType.PhoneNumber))? rs.getString(DataType.PhoneNumber) : null ;
+                String codeService = (selectedProjections.get(DataType.CodeService))? rs.getString(DataType.CodeService) : null;
+                Double salary    = (selectedProjections.get(DataType.Salary))?  rs.getBigDecimal(DataType.Salary).doubleValue() : null;
+                String rotation    = (selectedProjections.get(DataType.Rotation))? rs.getString(DataType.Rotation) : null;
+                Integer number     = (selectedProjections.get(DataType.Num))? rs.getInt(DataType.Num) : null;
+
+                nurses.add(new Nurse(new BasicInfo(name, firstName, phone, adress), number, codeService, rotation, salary));
+            }
+        }
+        catch(Exception ex)
+        {
+            JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+        }
+
+        return nurses.toArray(new Nurse[nurses.size()]);
     }
 
     private static HashMap<String, Boolean> buildDictionnay(ArrayList<String> projections)

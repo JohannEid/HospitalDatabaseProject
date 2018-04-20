@@ -2,7 +2,7 @@ package com.company.View;
 
 import com.company.View.CustomPanels.ConnexionPanel;
 import com.company.View.CustomPanels.DoctorManagement;
-import com.company.View.CustomPanels.NurseManagementPanel;
+import com.company.View.CustomPanels.NurseManagement;
 
 import javax.swing.*;
 import java.awt.*;
@@ -12,7 +12,7 @@ public class ViewManager extends JFrame {
 
     private static JTabbedPane tabbedPane = new JTabbedPane();
     private ConnexionPanel connexionPanel = new ConnexionPanel();
-    private NurseManagementPanel  nurseManagementPanel = new NurseManagementPanel();
+    private NurseManagement nurseManagementPanel = new NurseManagement();
     private DoctorManagement doctorManagement = new DoctorManagement();
 
 
