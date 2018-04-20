@@ -18,11 +18,11 @@ import java.util.List;
 /**
  * @author Johann Eid
  */
-public class NurseUpdatePanel extends ImagePanel {
+public class PatientUpdatePanel extends ImagePanel {
 
-    public NurseUpdatePanel()
+    public PatientUpdatePanel()
     {
-        super("images/nurse.jpg");
+        super("images/patient.png");
         initComponents();
 
         listener = new ButtonListener();
@@ -52,13 +52,9 @@ public class NurseUpdatePanel extends ImagePanel {
         adressText = new JTextField();
         label10 = new JLabel();
         phoneNumberText = new JTextField();
-        separator2 = compFactory.createSeparator("Professional information");
-        label11 = new JLabel();
-        rotationBox = new JComboBox();
-        label2 = new JLabel();
-        salaryText = new JTextField();
+        separator2 = compFactory.createSeparator("Medical information");
         label3 = new JLabel();
-        serviceText = new JTextField();
+        insuranceCombo = new JComboBox();
         separator3 = compFactory.createSeparator("Update existing information");
         updateButton = new JButton();
         separator4 = compFactory.createSeparator("Insert new information");
@@ -148,7 +144,7 @@ public class NurseUpdatePanel extends ImagePanel {
             "[]"));
 
         //---- label1 ----
-        label1.setText("Update nurse database");
+        label1.setText("Update doctor database");
         add(label1, "cell 0 0 2 1");
 
         //---- label4 ----
@@ -184,30 +180,20 @@ public class NurseUpdatePanel extends ImagePanel {
         add(phoneNumberText, "cell 1 16 26 1");
         add(separator2, "cell 0 18 29 1");
 
-        //---- label11 ----
-        label11.setText("Rotation");
-        add(label11, "cell 0 20");
-        add(rotationBox, "cell 1 20 26 1");
-
-        //---- label2 ----
-        label2.setText("Salary");
-        add(label2, "cell 0 22");
-        add(salaryText, "cell 1 22 26 1");
-
         //---- label3 ----
-        label3.setText("Service code");
-        add(label3, "cell 0 24");
-        add(serviceText, "cell 1 24 26 1");
-        add(separator3, "cell 0 28 27 1");
+        label3.setText("Insurance");
+        add(label3, "cell 0 20");
+        add(insuranceCombo, "cell 1 20 26 1");
+        add(separator3, "cell 0 22 27 1");
 
         //---- updateButton ----
         updateButton.setText("Update");
-        add(updateButton, "cell 0 30 2 1");
-        add(separator4, "cell 0 32 27 1");
+        add(updateButton, "cell 0 24 2 1");
+        add(separator4, "cell 0 26 27 1");
 
         //---- insertButton ----
         insertButton.setText("Insert");
-        add(insertButton, "cell 0 35 2 1");
+        add(insertButton, "cell 0 28 2 1");
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
 
@@ -230,12 +216,8 @@ public class NurseUpdatePanel extends ImagePanel {
     private JLabel label10;
     private JTextField phoneNumberText;
     private JComponent separator2;
-    private JLabel label11;
-    private JComboBox rotationBox;
-    private JLabel label2;
-    private JTextField salaryText;
     private JLabel label3;
-    private JTextField serviceText;
+    private JComboBox insuranceCombo;
     private JComponent separator3;
     private JButton updateButton;
     private JComponent separator4;
@@ -244,9 +226,19 @@ public class NurseUpdatePanel extends ImagePanel {
 
     private void populateComboBox()
     {
-        rotationBox.addItem("");
-        rotationBox.addItem("Jour");
-        rotationBox.addItem("Nuit");
+        insuranceCombo.addItem("");
+        insuranceCombo.addItem("MNAM");
+        insuranceCombo.addItem("LMDE");
+        insuranceCombo.addItem("MNH");
+        insuranceCombo.addItem("MAAF");
+        insuranceCombo.addItem("MGEN");
+        insuranceCombo.addItem("MMA");
+        insuranceCombo.addItem("CNAMTS");
+        insuranceCombo.addItem("CCVRP");
+        insuranceCombo.addItem("MNFTC");
+        insuranceCombo.addItem("MAS");
+        insuranceCombo.addItem("AG2R");
+        insuranceCombo.addItem("MGSP");
     }
 
     private void selectUpdates()
@@ -283,23 +275,11 @@ public class NurseUpdatePanel extends ImagePanel {
         }
         else DataType.mappingAttributeToParam.put(DataType.Num, " ");
 
-        if(!salaryText.getText().isEmpty())
+        if((String) insuranceCombo.getSelectedItem() != "")
         {
-            DataType.mappingAttributeToParam.put(DataType.Salary, salaryText.getText());
+            DataType.mappingAttributeToParam.put(DataType.Insurance, (String) insuranceCombo.getSelectedItem());
         }
-        else DataType.mappingAttributeToParam.put(DataType.Salary, " ");
-
-        if(!serviceText.getText().isEmpty())
-        {
-            DataType.mappingAttributeToParam.put(DataType.CodeService, serviceText.getText());
-        }
-        else DataType.mappingAttributeToParam.put(DataType.CodeService, " ");
-
-        if((String) rotationBox.getSelectedItem() != "")
-        {
-            DataType.mappingAttributeToParam.put(DataType.Speciality, (String) rotationBox.getSelectedItem());
-        }
-        else DataType.mappingAttributeToParam.put(DataType.Speciality, " ");
+        else DataType.mappingAttributeToParam.put(DataType.Insurance, " ");
     }
 
     class ButtonListener implements ActionListener
@@ -310,10 +290,10 @@ public class NurseUpdatePanel extends ImagePanel {
             {
                 if(idText.getText().isEmpty())
                 {
-                    JOptionPane.showMessageDialog(null , "Please enter the nurse's ID" ,"Delete error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null , "Please enter the patient's ID" ,"Delete error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
-                List<String> tables = Arrays.asList(DataType.Nurse, DataType.Employee);
+                List<String> tables = Arrays.asList(DataType.Patient);
 
                 UpdateDataBase.deleteFromDataBase(idText.getText(), tables);
             }
@@ -322,22 +302,22 @@ public class NurseUpdatePanel extends ImagePanel {
             {
                 if(idText.getText().isEmpty())
                 {
-                    JOptionPane.showMessageDialog(null , "Please enter the nurse's ID" ,"Update error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null , "Please enter the patient's ID" ,"Update error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
                 selectUpdates();
-                UpdateDataBase.updateDataBase(DataType.Employee + ", " + DataType.Nurse);
+                UpdateDataBase.updateDataBase(DataType.Patient);
             }
 
             if (e.getSource().equals(insertButton))
             {
                 if(idText.getText().isEmpty())
                 {
-                    JOptionPane.showMessageDialog(null , "Please enter the nurse's ID" ,"Insert error", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(null , "Please enter the patient's ID" ,"Insert error", JOptionPane.ERROR_MESSAGE);
                     return;
                 }
                 selectUpdates();
-                UpdateDataBase.insertIntoDataBase(DataType.Employee + ", " + DataType.Nurse);
+                UpdateDataBase.insertIntoDataBase(DataType.Patient);
             }
         }
     }

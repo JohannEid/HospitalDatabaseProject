@@ -3,6 +3,7 @@ package com.company.View;
 import com.company.View.CustomPanels.ConnexionPanel;
 import com.company.View.CustomPanels.DoctorManagement;
 import com.company.View.CustomPanels.NurseManagement;
+import com.company.View.CustomPanels.PatientManagement;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,7 +15,7 @@ public class ViewManager extends JFrame {
     private ConnexionPanel connexionPanel = new ConnexionPanel();
     private NurseManagement nurseManagementPanel = new NurseManagement();
     private DoctorManagement doctorManagement = new DoctorManagement();
-
+    private PatientManagement patientManagement = new PatientManagement();
 
 
 
@@ -35,6 +36,11 @@ public class ViewManager extends JFrame {
         tabbedPane.setMnemonicAt(2, KeyEvent.VK_3);
         setTabbedPanelSize(2, "Nurses management");
         tabbedPane.setEnabledAt(2, false);
+
+        tabbedPane.add(patientManagement);
+        tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
+        setTabbedPanelSize(3, "Patients management");
+        tabbedPane.setEnabledAt(3, false);
 
 
         tabbedPane.setTabPlacement(SwingConstants.LEFT);

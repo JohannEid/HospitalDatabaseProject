@@ -11,7 +11,7 @@ new FormModel {
 			name: "this"
 			add( new FormComponent( "javax.swing.JLabel" ) {
 				name: "label1"
-				"text": "Update nurse database"
+				"text": "Update doctor database"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 0 2 1"
 			} )
@@ -95,66 +95,44 @@ new FormModel {
 			} )
 			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
 				name: "separator2"
-				"text": "Professional information"
+				"text": "Medical information"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 18 29 1"
 			} )
 			add( new FormComponent( "javax.swing.JLabel" ) {
-				name: "label11"
-				"text": "Rotation"
+				name: "label3"
+				"text": "Insurance"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 0 20"
 			} )
 			add( new FormComponent( "javax.swing.JComboBox" ) {
-				name: "rotationBox"
+				name: "insuranceCombo"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
 				"value": "cell 1 20 26 1"
-			} )
-			add( new FormComponent( "javax.swing.JLabel" ) {
-				name: "label2"
-				"text": "Salary"
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 22"
-			} )
-			add( new FormComponent( "javax.swing.JTextField" ) {
-				name: "salaryText"
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 1 22 26 1"
-			} )
-			add( new FormComponent( "javax.swing.JLabel" ) {
-				name: "label3"
-				"text": "Service code"
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 24"
-			} )
-			add( new FormComponent( "javax.swing.JTextField" ) {
-				name: "serviceText"
-			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 1 24 26 1"
 			} )
 			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
 				name: "separator3"
 				"text": "Update existing information"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 28 27 1"
+				"value": "cell 0 22 27 1"
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "updateButton"
 				"text": "Update"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 30 2 1"
+				"value": "cell 0 24 2 1"
 			} )
 			add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
 				name: "separator4"
 				"text": "Insert new information"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 32 27 1"
+				"value": "cell 0 26 27 1"
 			} )
 			add( new FormComponent( "javax.swing.JButton" ) {
 				name: "insertButton"
 				"text": "Insert"
 			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
-				"value": "cell 0 35 2 1"
+				"value": "cell 0 28 2 1"
 			} )
 		}, new FormLayoutConstraints( null ) {
 			"location": new java.awt.Point( 0, 0 )

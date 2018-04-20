@@ -1,9 +1,6 @@
 package com.company.Control;
 
-import com.company.Model.BasicInfo;
-import com.company.Model.Doctor;
-import com.company.Model.Employee;
-import com.company.Model.Nurse;
+import com.company.Model.*;
 
 import javax.swing.*;
 import java.sql.PreparedStatement;
@@ -45,7 +42,22 @@ public class UpdateDataBase
     {
         if(tables == DataType.Employee + ", " + DataType.Doctor) updateDoctorDataBase();
         if(tables == DataType.Employee + ", " + DataType.Nurse) upateNurseDataBase();
+        if(tables == DataType.Patient) updatePatientDataBase();
+
     }
+
+    private static void updatePatientDataBase()
+    {
+        Patient patient = new Patient(new BasicInfo(DataType.mappingAttributeToParam.get(DataType.Name),
+                DataType.mappingAttributeToParam.get(DataType.FirstName),
+                DataType.mappingAttributeToParam.get(DataType.PhoneNumber),
+                DataType.mappingAttributeToParam.get(DataType.Adress)),
+                DataType.mappingAttributeToParam.get(DataType.Insurance),
+                Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.Num)));
+        updatePatientTable(patient);
+    }
+
+
 
     private static void upateNurseDataBase()
     {
@@ -70,8 +82,6 @@ public class UpdateDataBase
                 null);
 
 
-
-
         updateEmployeTable(nurse);
         updateNurseTable(nurse);
     }
@@ -80,8 +90,9 @@ public class UpdateDataBase
     {
         if(tables == DataType.Employee + ", " + DataType.Doctor) insertDoctorDataBase();
         if(tables == DataType.Employee + ", " + DataType.Nurse) insertNurseDataBase();
-
+        if(tables == DataType.Patient) insertPatientDataBase();
     }
+
 
     public static void updateDoctorDataBase()
     {
@@ -108,6 +119,19 @@ public class UpdateDataBase
         insertIntoEmployeTable(doctor);
         insertIntoDoctorTable(doctor);
     }
+
+    private static void insertPatientDataBase()
+    {
+        Patient patient = new Patient(new BasicInfo(DataType.mappingAttributeToParam.get(DataType.Name),
+                DataType.mappingAttributeToParam.get(DataType.FirstName),
+                DataType.mappingAttributeToParam.get(DataType.PhoneNumber),
+                DataType.mappingAttributeToParam.get(DataType.Adress)),
+                DataType.mappingAttributeToParam.get(DataType.Insurance),
+                Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.Num)));
+        insertIntoPatientTable(patient);
+    }
+
+
 
     public static void insertNurseDataBase()
     {
@@ -184,6 +208,32 @@ public class UpdateDataBase
         {
             JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
         }
+    }
+
+    private static void updatePatientTable(Patient patient)
+    {
+        try {
+
+            if (patient.getInsurance() != null)
+            {
+                String queryDoctor = SQLKeyWords.UpdateKeyWord + DataType.Patient + " " + SQLKeyWords.SetKeyWord +
+                        patient.formatForUpdate()
+                        + SQLKeyWords.WhereKeyWord + QueryBuilder.buildCondition(DataType.Num, DataType.mappingAttributeToParam.get(DataType.Num)) + ";";
+
+                PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
+
+                int rowsUpdated = statement.executeUpdate();
+                if (rowsUpdated > 0) {
+                    JOptionPane.showMessageDialog(null, "Successfully update in patient table" +
+                            DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
+                }
+            }
+        }
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
+        }
+
     }
 
 
@@ -284,6 +334,34 @@ public class UpdateDataBase
         }
     }
 
+    private static void insertIntoPatientTable(Patient patient)
+    {
+        try
+        {
+
+
+
+            String queryDoctor = SQLKeyWords.InsertKeyWord +  SQLKeyWords.IntoKeyWord + DataType.Patient + " " +
+                    patient.formatForInsert() + ";";
+
+            PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
+
+            int rowsUpdated = statement.executeUpdate();
+            if (rowsUpdated > 0)
+            {
+                JOptionPane.showMessageDialog(null, "Successfully inserted in patient table" +
+                        DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
+        }
+
+    }
+
+
     private static void insertIntoNurseTable(Nurse nurse)
     {
         try
@@ -292,11 +370,10 @@ public class UpdateDataBase
             if (nurse.getSalary() != null || nurse.getService() != " " || nurse.getShift() != " ")
             {
 
+                String queryNusrse = SQLKeyWords.InsertKeyWord + SQLKeyWords.IntoKeyWord + DataType.Nurse + " " +
+                      nurse.formatForInsert() + ";";
 
-                String queryDoctor = SQLKeyWords.InsertKeyWord + SQLKeyWords.IntoKeyWord + DataType.Nurse + " " +
-                    nurse.formatForInsert() + ";";
-
-                PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
+                PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryNusrse);
 
 
                 int rowsUpdated = statement.executeUpdate();
