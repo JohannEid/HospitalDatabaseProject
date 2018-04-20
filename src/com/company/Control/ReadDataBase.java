@@ -1,9 +1,6 @@
 package com.company.Control;
 
-import com.company.Model.BasicInfo;
-import com.company.Model.Doctor;
-import com.company.Model.ElementHospital;
-import com.company.Model.Nurse;
+import com.company.Model.*;
 
 import javax.swing.*;
 import java.sql.ResultSet;
@@ -46,6 +43,8 @@ public class ReadDataBase
             ResultSet rs = st.executeQuery(query);
             if(tableName == DataType.Employee + ", " + DataType.Doctor)  return readDoctorTable(rs, selectedProjections);
             if(tableName == DataType.Employee + ", " + DataType.Nurse)  return readNurseTable(rs, selectedProjections);
+            if(tableName == DataType.Patient)                           return readPatientTable(rs, selectedProjections);
+
 
             st.close();
         }
@@ -55,6 +54,32 @@ public class ReadDataBase
         }
 
         return new ElementHospital[10];
+    }
+
+    private static ElementHospital[] readPatientTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
+    {
+        ArrayList<Patient> patients= new ArrayList<Patient>();
+        try
+        {
+            while (rs.next())
+            {
+
+                String name       = (selectedProjections.get(DataType.Name))? rs.getString(DataType.Name) : null;
+                String firstName  = (selectedProjections.get(DataType.FirstName))? rs.getString(DataType.FirstName) : null;
+                String adress     = (selectedProjections.get(DataType.Adress))? rs.getString(DataType.Adress) : null;
+                String phone      = (selectedProjections.get(DataType.PhoneNumber))? rs.getString(DataType.PhoneNumber) : null ;
+                String insurance = (selectedProjections.get(DataType.Insurance))? rs.getString(DataType.Insurance) : null;
+                Integer number    = (selectedProjections.get(DataType.Num))? rs.getInt(DataType.Num) : null;
+
+                patients.add(new Patient(new BasicInfo(name, firstName, phone, adress),insurance, number));
+            }
+        }
+        catch(Exception ex)
+        {
+            JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+        }
+
+        return patients.toArray(new Patient[patients.size()]);
     }
 
     private static ElementHospital[] readDoctorTable(ResultSet rs, HashMap<String, Boolean> selectedProjections)

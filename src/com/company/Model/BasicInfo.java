@@ -66,13 +66,13 @@ public class BasicInfo
 
     public String formatForUpdate()
     {
-       String setName = (name != null)?
+       String setName = (name != " ")?
                 QueryBuilder.buildCondition(DataType.Name,name) : "";
-       String setFirstName = (firstName != null)?
+       String setFirstName = (firstName != " ")?
                 QueryBuilder.buildCondition(DataType.FirstName, firstName)  : "";
-       String setPhone = (phoneNumber != null)?
+       String setPhone = (phoneNumber != " ")?
                 QueryBuilder.buildCondition(DataType.PhoneNumber,phoneNumber) : "";
-       String setAdress = (adress != null)?
+       String setAdress = (adress != " ")?
                 QueryBuilder.buildCondition(DataType.Adress, adress): "";
 
         setName += (setName != "" && setFirstName != "")? ", " : " ";
