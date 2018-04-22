@@ -46,6 +46,7 @@ public class ReadDataBase
             if(tableName == DataType.Patient)                           return readPatientTable(rs, selectedProjections);
             if(tableName == DataType.Room)                              return readRoomTable(rs, selectedProjections);
             if(tableName == DataType.Hospital)                          return readHospitalTable(rs, selectedProjections);
+            if(tableName == DataType.Appointment)                       return readAppointmentTable(rs, selectedProjections);
 
 
             st.close();
@@ -56,6 +57,29 @@ public class ReadDataBase
         }
 
         return new ElementHospital[10];
+    }
+
+    private static ElementHospital[] readAppointmentTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
+    {
+        ArrayList<Appointment> apps = new ArrayList<Appointment>();
+        try
+        {
+            while (rs.next())
+            {
+
+                String rotation = (selectedProjections.get(DataType.Rotation))? rs.getString(DataType.Rotation) : null;
+                Integer numPatient    = (selectedProjections.get(DataType.NumPatient))? rs.getInt(DataType.NumPatient) : null;
+                Integer numDoc     = (selectedProjections.get(DataType.NumDoctor))? rs.getInt(DataType.NumDoctor): null ;
+
+                apps.add(new Appointment(numPatient, numDoc, rotation));
+            }
+        }
+        catch(Exception ex)
+        {
+            JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+        }
+
+        return apps.toArray(new Appointment[apps.size()]);
     }
 
     private static ElementHospital[] readHospitalTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
@@ -208,6 +232,8 @@ public class ReadDataBase
         hm.put(DataType.Superviser, initBolean);
         hm.put(DataType.Watcher, initBolean);
         hm.put(DataType.Adress, initBolean);
+        hm.put(DataType.NumDoctor, initBolean);
+
 
         if(initBolean) return hm;
 

@@ -33,6 +33,7 @@ public class DataType
     public static final String Patient     = "malade";
     public static final String Service     = "service";
     public static final String Care        = "soigne";
+    public static final String Appointment = "rendez_vous";
 
     public static final Map<String, String> mappingTableToId;
 

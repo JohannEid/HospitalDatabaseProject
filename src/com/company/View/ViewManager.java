@@ -10,12 +10,13 @@ public class ViewManager extends JFrame {
 
     private static JTabbedPane tabbedPane = new JTabbedPane();
     private ConnexionPanel connexionPanel = new ConnexionPanel();
-    private NurseManagement nurseManagementPanel = new NurseManagement();
-    private ServiceManagement serviceManagement=new ServiceManagement();
-    private DoctorManagement doctorManagement = new DoctorManagement();
-    private PatientManagement patientManagement = new PatientManagement();
-    private RoomManagement roomManagement = new RoomManagement();
-    private HospitalisationManagement hospitalisationManagement = new HospitalisationManagement();
+    public static NurseManagement nurseManagementPanel = new NurseManagement();
+    public static ServiceManagement serviceManagement=new ServiceManagement();
+    public static DoctorManagement doctorManagement = new DoctorManagement();
+    public static PatientManagement patientManagement = new PatientManagement();
+    public static RoomManagement roomManagement = new RoomManagement();
+    public static AppointmentManagement appointmentManagement = new AppointmentManagement();
+    public static HospitalisationManagement hospitalisationManagement = new HospitalisationManagement();
 
 
 
@@ -56,6 +57,12 @@ public class ViewManager extends JFrame {
         tabbedPane.setMnemonicAt(6, KeyEvent.VK_4);
         setTabbedPanelSize(6, "Service management");
         tabbedPane.setEnabledAt(6, false);
+
+        tabbedPane.add(appointmentManagement);
+        tabbedPane.setMnemonicAt(7, KeyEvent.VK_4);
+        setTabbedPanelSize(7, "Appointment management");
+        tabbedPane.setEnabledAt(7, false);
+
 
 
 

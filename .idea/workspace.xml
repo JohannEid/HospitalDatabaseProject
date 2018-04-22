@@ -1,89 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5f021c52-a5a2-4bc9-9187-99803dff5a5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/jcommon-1.0.23.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jfreechart-1.0.19.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceResearchPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceResearchPanel.jfd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/Connexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/Connexion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/DataType.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/UpdateDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/UpdateDataBase.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Activity.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Building.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Care.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Care.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Hospitalization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Hospitalization.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Infrastructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Infrastructure.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Nurse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Nurse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Patient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Room.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$SubmitListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorUpdatePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorUpdatePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationResearchPanel.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationUpdatePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationUpdatePanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationUpdatePanel$ButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationUpdatePanel$ButtonListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationUpdatePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/HospitalisationUpdatePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ImagePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ImagePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseResearchPanel$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseResearchPanel$SubmitListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseResearchPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseUpdatePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseUpdatePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel$SubmitListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientUpdatePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientUpdatePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel$SubmitListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomResearchPanel.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomUpdatePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomUpdatePanel$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomUpdatePanel$ButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomUpdatePanel$ButtonListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomUpdatePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/RoomUpdatePanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/Control/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/Model/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/DoctorManagementPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/DoctorResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceUpdatePanel.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/images/doctor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/images/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/hopital.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Control/Connexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/Connexion.java" afterDir="false" />
+    <list default="true" id="5f021c52-a5a2-4bc9-9187-99803dff5a5a" name="Default" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/com/company/View/CustomPanels/HospitalisationResearchPanel.java&#10;#&#9;src/com/company/View/CustomPanels/HospitalisationResearchPanel.jfd&#10;#&#9;src/com/company/View/CustomPanels/HospitalisationUpdatePanel.java&#10;#&#9;src/com/company/View/CustomPanels/RoomResearchPanel.java&#10;#&#9;src/com/company/View/CustomPanels/RoomResearchPanel.jfd&#10;#&#9;src/com/company/View/CustomPanels/RoomUpdatePanel.java">
       <change beforePath="$PROJECT_DIR$/src/com/company/Control/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/DataType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Control/MainControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/MainControl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Care.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Care.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Hospitalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Hospitalization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Infrastructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Infrastructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationResearchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationResearchPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationResearchPanel.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/NurseUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/NurseUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomResearchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomResearchPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomResearchPanel.jfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomResearchPanel.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomUpdatePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -119,98 +40,103 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ServiceManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceManagement.java">
+      <file leaf-file-name="ViewManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
-              <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
+              <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnexionPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java">
+      <file leaf-file-name="AppointmentManagement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentManagement.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="387">
-              <caret line="80" column="25" lean-forward="true" selection-start-line="80" selection-start-column="25" selection-end-line="80" selection-end-column="25" />
+            <state relative-caret-position="90">
+              <caret line="6" column="87" lean-forward="true" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+              <folding>
+                <element signature="e#241#242#0" expanded="true" />
+                <element signature="e#312#313#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorUpdatePanel.jfd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.jfd">
+      <file leaf-file-name="Helper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Helper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppointmentResearchPanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentResearchPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="362" column="27" selection-start-line="362" selection-start-column="27" selection-end-line="362" selection-end-column="27" />
+              <folding>
+                <marker date="1524396340517" expanded="false" signature="787:1673" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1524396340517" expanded="false" signature="2357:8750" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Appointment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/Appointment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Nurse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/Nurse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Activity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/Activity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReadDataBase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="337">
+              <caret line="233" column="44" selection-start-line="233" selection-start-column="44" selection-end-line="233" selection-end-column="44" />
+              <folding>
+                <element signature="e#3064#3077#0" expanded="true" />
+                <element signature="e#2952#2969#0" expanded="true" />
+                <element signature="e#4080#4086#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Boolean.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Boolean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppointmentResearchPanel.jfd" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentResearchPanel.jfd">
           <provider selected="true" editor-type-id="JFormDesigner" />
-        </entry>
-      </file>
-      <file leaf-file-name="RoomUpdatePanel.jfd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomUpdatePanel.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner" />
-        </entry>
-      </file>
-      <file leaf-file-name="RoomUpdatePanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomUpdatePanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="485">
-              <caret line="269" lean-forward="true" selection-start-line="269" selection-end-line="269" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1524393277148" expanded="false" signature="505:6197" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RoomResearchPanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomResearchPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="402">
-              <caret line="408" column="13" lean-forward="true" selection-start-line="408" selection-start-column="13" selection-end-line="408" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1524393323625" expanded="false" signature="660:11202" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ServicePie.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServicePie.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="54" column="9" lean-forward="true" selection-start-line="54" selection-start-column="9" selection-end-line="54" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientUpdatePanel.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-              <folding>
-                <marker date="1524392993598" expanded="false" signature="916:6038" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1524392993598" expanded="false" signature="6087:7017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PatientResearchPanel.jfd" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientResearchPanel.jfd">
-          <provider selected="true" editor-type-id="JFormDesigner" />
-        </entry>
-      </file>
-      <file leaf-file-name="PatientResearchPanel.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientResearchPanel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1233">
-              <caret line="367" column="41" lean-forward="true" selection-start-line="367" selection-start-column="41" selection-end-line="367" selection-end-column="41" />
-              <folding>
-                <marker date="1524256592244" expanded="false" signature="1190:9335" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1524256592244" expanded="false" signature="9396:10609" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-              </folding>
-            </state>
-          </provider>
         </entry>
       </file>
     </leaf>
@@ -238,11 +164,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.jfd" />
-        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.jfd" />
-        <option value="$PROJECT_DIR$/src/com/company/Control/Connexion.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Control/SQLKeyWords.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Control/QueryBuilder.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/NurseResearchPanel.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Watcher.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/NurseUpdatePanel.java" />
@@ -270,12 +191,9 @@
         <option value="$PROJECT_DIR$/src/com/company/Model/Care.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Hospitalization.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Infrastructure.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Control/DataType.java" />
         <option value="$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Service.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceUpdatePanel.jfd" />
-        <option value="$PROJECT_DIR$/src/com/company/View/ViewManager.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceManagement.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomUpdatePanel.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java" />
@@ -289,6 +207,14 @@
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomUpdatePanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/RoomResearchPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentManagement.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentResearchPanel.jfd" />
+        <option value="$PROJECT_DIR$/src/com/company/Control/MainControl.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Control/DataType.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/ViewManager.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/Appointment.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentResearchPanel.java" />
+        <option value="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" />
       </list>
     </option>
   </component>
@@ -397,19 +323,20 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/com/company/View" />
-      <recent name="$PROJECT_DIR$/src/com/company/View/CustomPanels" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/src" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.company.View" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/com/company/View/CustomPanels" />
       <recent name="$PROJECT_DIR$/src/com/company/View/CustomPanels/images" />
       <recent name="$PROJECT_DIR$/src/com/company" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.company.View.CustomPanels" />
+      <recent name="com.company.View" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/company/View" />
+      <recent name="$PROJECT_DIR$/src/com/company/View/CustomPanels" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src" />
     </key>
@@ -537,7 +464,7 @@
       <workItem from="1524320745880" duration="1247000" />
       <workItem from="1524345358409" duration="1193000" />
       <workItem from="1524350355652" duration="5894000" />
-      <workItem from="1524393029646" duration="675000" />
+      <workItem from="1524393029646" duration="3763000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1522943671427</created>
@@ -690,7 +617,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="137195000" />
+    <option name="totallyTimeSpent" value="140283000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -706,7 +633,7 @@
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3275862" />
       <window_info anchor="bottom" id="Messages" order="11" sideWeight="0.48424545" weight="0.32435346" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info id="Image Layers" order="9" />
@@ -714,25 +641,25 @@
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.514649" side_tool="true" weight="0.35021552" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.48535103" visible="true" weight="0.1875" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.48535103" weight="0.1875" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498618" weight="0.3297414" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49530128" weight="0.3286638" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77931035" visible="true" weight="0.17025982" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.77931035" visible="true" weight="0.24709785" />
       <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865228" weight="0.3283582" />
       <window_info id="Structure" order="1" sideWeight="0.22018349" side_tool="true" weight="0.16842106" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49695966" weight="0.29094827" />
+      <window_info anchor="bottom" id="Debug" order="2" sideWeight="0.49695966" visible="true" weight="0.29094827" />
       <window_info id="Favorites" order="6" sideWeight="0.5016077" side_tool="true" weight="0.25262576" />
       <window_info anchor="bottom" id="DB Execution Console" order="7" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Coverage" order="8" side_tool="true" weight="0.32991913" />
       <window_info anchor="right" id="FAQ Robot" order="6" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49865228" weight="0.3283582" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info id="Project Explorer" order="4" weight="0.32946378" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -865,8 +792,26 @@
           <properties />
           <option name="timeStamp" value="97" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java</url>
+          <line>41</line>
+          <properties />
+          <option name="timeStamp" value="103" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java</url>
+          <line>69</line>
+          <properties />
+          <option name="timeStamp" value="104" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="100" />
+      <option name="time" value="105" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -874,37 +819,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceManagement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Superviser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Room.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="446">
-          <caret line="100" lean-forward="true" selection-start-line="100" selection-end-line="100" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Building.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/Care.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="446">
@@ -933,11 +847,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceResearchPanel.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner">
-        <state paletteWidth="92" propertiesWidth="323" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceUpdatePanel.jfd">
       <provider selected="true" editor-type-id="JFormDesigner">
         <state paletteWidth="165" />
@@ -950,38 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3570">
-          <caret line="216" column="6" selection-start-line="216" selection-start-column="6" selection-end-line="216" selection-end-column="6" />
-          <folding>
-            <element signature="e#2952#2969#0" expanded="true" />
-            <element signature="e#4080#4086#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/DataType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/Watcher.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Control/MainControl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -1008,16 +889,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#14679#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1073,27 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceUpdatePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="901">
-          <caret line="57" column="33" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Helper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1108,13 +958,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Activity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1220,11 +1063,152 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientResearchPanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1233">
-          <caret line="367" column="41" lean-forward="true" selection-start-line="367" selection-start-column="41" selection-end-line="367" selection-end-column="41" />
+        <state relative-caret-position="300">
+          <caret line="387" column="40" lean-forward="true" selection-start-line="387" selection-start-column="40" selection-end-line="387" selection-end-column="40" />
           <folding>
             <marker date="1524256592244" expanded="false" signature="1190:9335" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
             <marker date="1524256592244" expanded="false" signature="9396:10609" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceUpdatePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding>
+            <marker date="1524392993598" expanded="false" signature="338:6521" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceResearchPanel.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner">
+        <state paletteWidth="92" propertiesWidth="323" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorPieChart.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/MainControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#394#395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1835">
+          <caret line="466" column="39" selection-start-line="466" selection-start-column="39" selection-end-line="466" selection-end-column="39" />
+          <folding>
+            <marker date="1524392993594" expanded="false" signature="782:2017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1524392993594" expanded="false" signature="2695:10470" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/DataType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="18" column="34" lean-forward="true" selection-start-line="18" selection-start-column="34" selection-end-line="18" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Doctor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Nurse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="46" column="28" lean-forward="true" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Activity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="22" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentResearchPanel.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Helper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="17" column="23" lean-forward="true" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="87" lean-forward="true" selection-start-line="6" selection-start-column="87" selection-end-line="6" selection-end-column="87" />
+          <folding>
+            <element signature="e#241#242#0" expanded="true" />
+            <element signature="e#312#313#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Appointment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentResearchPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="362" column="27" selection-start-line="362" selection-start-column="27" selection-end-line="362" selection-end-column="27" />
+          <folding>
+            <marker date="1524396340517" expanded="false" signature="787:1673" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1524396340517" expanded="false" signature="2357:8750" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-8-oracle/src.zip!/java/lang/Boolean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="42" column="19" selection-start-line="42" selection-start-column="19" selection-end-line="42" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="233" column="44" selection-start-line="233" selection-start-column="44" selection-end-line="233" selection-end-column="44" />
+          <folding>
+            <element signature="e#3064#3077#0" expanded="true" />
+            <element signature="e#2952#2969#0" expanded="true" />
+            <element signature="e#4080#4086#0" expanded="true" />
           </folding>
         </state>
       </provider>
