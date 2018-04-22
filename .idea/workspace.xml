@@ -3,8 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5f021c52-a5a2-4bc9-9187-99803dff5a5a" name="Default" comment="Merge remote-tracking branch 'github/master'&#10;&#10;# Conflicts:&#10;#&#9;src/com/company/View/CustomPanels/HospitalisationResearchPanel.java&#10;#&#9;src/com/company/View/CustomPanels/HospitalisationResearchPanel.jfd&#10;#&#9;src/com/company/View/CustomPanels/HospitalisationUpdatePanel.java&#10;#&#9;src/com/company/View/CustomPanels/RoomResearchPanel.java&#10;#&#9;src/com/company/View/CustomPanels/RoomResearchPanel.jfd&#10;#&#9;src/com/company/View/CustomPanels/RoomUpdatePanel.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Patient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Patient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +38,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ViewManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ViewManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+            <state relative-caret-position="282">
+              <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -74,20 +73,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainControl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/Control/MainControl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="36" selection-start-line="23" selection-end-line="24" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#362#363#0" expanded="true" />
-                <element signature="e#394#395#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ConnexionPanel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -102,24 +87,37 @@
           <provider selected="true" editor-type-id="JFormDesigner" />
         </entry>
       </file>
-      <file leaf-file-name="ConnexionManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.java">
+      <file leaf-file-name="PatientUpdatePanel.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="123" column="65" lean-forward="true" selection-start-line="123" selection-start-column="65" selection-end-line="123" selection-end-column="65" />
+            <state relative-caret-position="-1218">
+              <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
-                <marker date="1524417459365" expanded="true" signature="588:3347" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-                <marker date="1524417459365" expanded="false" signature="3428:3914" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+                <marker date="1524392993598" expanded="false" signature="916:6038" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1524392993598" expanded="false" signature="6087:7017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DoctorManagement.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorManagement.java">
+      <file leaf-file-name="Patient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/company/Model/Patient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            <state relative-caret-position="465">
+              <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnexionManagement.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="177">
+              <caret line="146" column="65" lean-forward="true" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="65" />
+              <folding>
+                <marker date="1524418071402" expanded="true" signature="588:3840" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+                <marker date="1524418071402" expanded="false" signature="3921:4407" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,8 +125,8 @@
       <file leaf-file-name="ReadDataBase.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="162" column="9" lean-forward="true" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
+            <state relative-caret-position="399">
+              <caret line="169" column="128" lean-forward="true" selection-start-line="169" selection-start-column="128" selection-end-line="169" selection-end-column="128" />
             </state>
           </provider>
         </entry>
@@ -170,7 +168,6 @@
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/NurseUpdatePanel.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientResearchPanel.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientResearchPanel.java" />
-        <option value="$PROJECT_DIR$/src/com/company/Model/Patient.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationResearchPanel.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationUpdatePanel.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/HospitalisationManagement.java" />
@@ -205,10 +202,11 @@
         <option value="$PROJECT_DIR$/src/com/company/Control/DataType.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/AppointmentResearchPanel.java" />
         <option value="$PROJECT_DIR$/src/com/company/Model/Appointment.java" />
-        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.jfd" />
         <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.java" />
         <option value="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" />
         <option value="$PROJECT_DIR$/src/com/company/View/ViewManager.java" />
+        <option value="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.jfd" />
+        <option value="$PROJECT_DIR$/src/com/company/Model/Patient.java" />
       </list>
     </option>
   </component>
@@ -459,7 +457,7 @@
       <workItem from="1524345358409" duration="1193000" />
       <workItem from="1524350355652" duration="5894000" />
       <workItem from="1524393029646" duration="4126000" />
-      <workItem from="1524414787396" duration="2598000" />
+      <workItem from="1524414787396" duration="3844000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1522943671427</created>
@@ -612,7 +610,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143244000" />
+    <option name="totallyTimeSpent" value="144490000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -637,11 +635,11 @@
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498618" weight="0.3297414" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.48535103" visible="true" weight="0.1875" />
+      <window_info active="true" anchor="bottom" id="Run" order="5" sideWeight="0.48535103" visible="true" weight="0.1875" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49530128" weight="0.3286638" />
       <window_info id="Capture Tool" order="7" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.89522547" visible="true" weight="0.2498618" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89522547" visible="true" weight="0.2498618" />
       <window_info anchor="right" id="Database" order="9" weight="0.32955465" />
       <window_info id="Structure" order="1" sideWeight="0.104774535" side_tool="true" visible="true" weight="0.2498618" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -802,13 +800,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Hospitalization.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="79" lean-forward="true" selection-start-line="79" selection-end-line="79" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Model/Infrastructure.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -970,17 +961,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientResearchPanel.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="387" column="40" lean-forward="true" selection-start-line="387" selection-start-column="40" selection-end-line="387" selection-end-column="40" />
+          <folding>
+            <marker date="1524256592244" expanded="false" signature="1190:9335" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1524256592244" expanded="false" signature="9396:10609" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,9 +1105,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.jfd">
-      <provider selected="true" editor-type-id="JFormDesigner" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Control/DataType.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -1140,28 +1125,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="75" column="60" lean-forward="true" selection-start-line="75" selection-start-column="60" selection-end-line="75" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="162" column="9" lean-forward="true" selection-start-line="162" selection-start-column="9" selection-end-line="162" selection-end-column="9" />
+        <state relative-caret-position="399">
+          <caret line="169" column="128" lean-forward="true" selection-start-line="169" selection-start-column="128" selection-end-line="169" selection-end-column="128" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
-          <caret line="123" column="65" lean-forward="true" selection-start-line="123" selection-start-column="65" selection-end-line="123" selection-end-column="65" />
+          <caret line="146" column="65" lean-forward="true" selection-start-line="146" selection-start-column="65" selection-end-line="146" selection-end-column="65" />
           <folding>
-            <marker date="1524417459365" expanded="true" signature="588:3347" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1524417459365" expanded="false" signature="3428:3914" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1524418071402" expanded="true" signature="588:3840" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1524418071402" expanded="false" signature="3921:4407" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/company/View/ViewManager.java">
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionManagement.jfd">
+      <provider selected="true" editor-type-id="JFormDesigner" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        <state relative-caret-position="-1218">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <marker date="1524392993598" expanded="false" signature="916:6038" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1524392993598" expanded="false" signature="6087:7017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/company/Model/Patient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="48" column="35" lean-forward="true" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
         </state>
       </provider>
     </entry>

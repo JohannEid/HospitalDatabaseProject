@@ -30,7 +30,7 @@ public class Patient extends Human
     public String toString()
     {
         String setInsurance = (insurance != null)? "Insurance: " + insurance: " ";
-        String setId = (ID != null)? "ID: " + ID : " ";
+        String setId = (ID != null)? "ID: " + ID  + " ": " ";
 
         return setId + getBasicInfo().toString() + setInsurance;
     }
