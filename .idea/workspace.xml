@@ -2,20 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5f021c52-a5a2-4bc9-9187-99803dff5a5a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceManagement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceResearchPanel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ServiceResearchPanel.jfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/Connexion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/Connexion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/DataType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/DataType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/QueryBuilder.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/ReadDataBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/SSHTunnel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/SSHTunnel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/UpdateDataBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Control/UpdateDataBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Activity.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Activity.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/BasicInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Building.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Building.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Care.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Care.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Hospitalization.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Hospitalization.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Infrastructure.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Infrastructure.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Nurse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Nurse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Patient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Patient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Room.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Room.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/Model/Service.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel$ConnexionRequest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/ConnexionPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/DoctorResearchPanel$SubmitListener.class" afterDir="false" />
@@ -25,34 +28,7 @@
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/NurseResearchPanel.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel$SubmitListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel$SubmitListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/CustomPanels/PatientResearchPanel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/Control/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/Model/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/DoctorManagementPanel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/DoctorResearchPanel.jfd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/images/doctor.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/View/CustomPanels/images/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/company/hopital.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/com/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HospitalFInalProject/hospital.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Control/Connexion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/Connexion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Control/DataType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/DataType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Activity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/BasicInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Building.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Building.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Care.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Care.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Hospitalization.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Hospitalization.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Infrastructure.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Infrastructure.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Room.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Model/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Model/Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/ConnexionPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorResearchPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/DoctorUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/NurseUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/NurseUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/CustomPanels/PatientUpdatePanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/View/ViewManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Blblbl/com/company/View/ViewManager.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -197,9 +173,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="949" />
-    <option name="width" value="980" />
-    <option name="height" value="1031" />
+    <option name="x" value="948" />
+    <option name="width" value="981" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -403,7 +379,7 @@
       <workItem from="1524306749308" duration="1850000" />
       <workItem from="1524320745880" duration="1247000" />
       <workItem from="1524345358409" duration="1193000" />
-      <workItem from="1524350355652" duration="5742000" />
+      <workItem from="1524350355652" duration="5894000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1522943671427</created>
@@ -545,11 +521,18 @@
       <option name="project" value="LOCAL" />
       <updated>1524221637604</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="legality ++ hellooo">
+      <created>1524356257230</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1524356257230</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136368000" />
+    <option name="totallyTimeSpent" value="136520000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -562,7 +545,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3283582" />
@@ -573,7 +555,7 @@
       <window_info anchor="bottom" id="Event Log" order="13" sideWeight="0.514649" side_tool="true" weight="0.35021552" />
       <window_info anchor="right" id="Maven Projects" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.48535103" visible="true" weight="0.18843284" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.48535103" weight="0.18843284" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.498618" weight="0.3297414" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49530128" weight="0.3286638" />
       <window_info id="Capture Tool" order="7" />
@@ -672,52 +654,54 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="test" />
     <MESSAGE value="Adding graphics" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding graphics" />
+    <MESSAGE value="legality ++ hellooo" />
+    <option name="LAST_COMMIT_MESSAGE" value="legality ++ hellooo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/Connexion.java</url>
+          <url />
           <line>75</line>
           <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/Connexion.java</url>
+          <url />
           <line>52</line>
           <properties />
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/ReadDataBase.java</url>
+          <url />
           <line>182</line>
           <properties />
           <option name="timeStamp" value="72" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java</url>
+          <url />
           <line>477</line>
           <properties />
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java</url>
+          <url />
           <line>358</line>
           <properties />
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java</url>
+          <url />
           <line>355</line>
           <properties />
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/company/Control/UpdateDataBase.java</url>
+          <url />
           <line>382</line>
           <properties />
           <option name="timeStamp" value="97" />
@@ -889,8 +873,8 @@
         <state relative-caret-position="102">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
-            <marker date="1524355883840" expanded="false" signature="913:5947" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1524355883840" expanded="false" signature="5996:6928" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1524356255824" expanded="false" signature="913:5947" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1524356255824" expanded="false" signature="5996:6928" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -901,8 +885,8 @@
           <caret line="23" column="11" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
           <folding>
             <element signature="e#0#14679#0" expanded="true" />
-            <marker date="1524355883887" expanded="false" signature="782:2017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
-            <marker date="1524355883887" expanded="false" signature="2695:10470" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1524356255855" expanded="false" signature="782:2017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1524356255855" expanded="false" signature="2695:10470" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -967,8 +951,8 @@
         <state relative-caret-position="102">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
-            <marker date="1524355883825" expanded="false" signature="910:6459" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1524355883825" expanded="false" signature="6508:7561" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1524356255809" expanded="false" signature="910:6459" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1524356255809" expanded="false" signature="6508:7561" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
@@ -996,8 +980,8 @@
         <state relative-caret-position="102">
           <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
           <folding>
-            <marker date="1524355883809" expanded="false" signature="916:6038" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
-            <marker date="1524355883809" expanded="false" signature="6087:7017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
+            <marker date="1524356255793" expanded="false" signature="916:6038" ph="// JFormDesigner - Component initialization - DO NOT MODIFY" />
+            <marker date="1524356255793" expanded="false" signature="6087:7017" ph="// JFormDesigner - Variables declaration - DO NOT MODIFY" />
           </folding>
         </state>
       </provider>
