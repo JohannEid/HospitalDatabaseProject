@@ -43,7 +43,7 @@ public class ServiceResearchPanel extends JPanel {
     private JCheckBox buildingCheckBox;
     private JLabel label13;
     private JTextField numberDirectorText;
-    private JCheckBoxMenuItem numberDirectorCheckBox;
+    private JCheckBox numberDirectorCheckBox;
     private JCheckBox allCheckbox;
     private JButton button1;
     private JComponent separator3;
@@ -98,7 +98,7 @@ public class ServiceResearchPanel extends JPanel {
         buildingCheckBox = new JCheckBox();
         label13 = compFactory.createLabel("number director");
         numberDirectorText = new JTextField();
-        numberDirectorCheckBox = new JCheckBoxMenuItem();
+        numberDirectorCheckBox = new JCheckBox();
         allCheckbox = new JCheckBox();
         button1 = new JButton();
         separator3 = compFactory.createSeparator("Search results:");
@@ -311,6 +311,7 @@ public class ServiceResearchPanel extends JPanel {
                 "[]" +
                 "[]" +
                 "[]" +
+                "[]" +
                 "[]"));
 
             //---- label2 ----
@@ -360,34 +361,34 @@ public class ServiceResearchPanel extends JPanel {
 
             //---- numberDirectorCheckBox ----
             numberDirectorCheckBox.setText("number director");
-            this2.add(numberDirectorCheckBox, "cell 52 11 5 1");
+            this2.add(numberDirectorCheckBox, "cell 52 11");
 
             //---- allCheckbox ----
             allCheckbox.setText("All");
             allCheckbox.setOpaque(false);
-            this2.add(allCheckbox, "cell 52 13");
+            this2.add(allCheckbox, "cell 52 14");
 
             //---- button1 ----
             button1.setText("Submit");
-            this2.add(button1, "cell 10 16 29 1");
-            this2.add(separator3, "cell 2 34 80 1");
-            this2.add(scrollPane1, "cell 2 36 85 14");
-            this2.add(label6, "cell 26 39");
+            this2.add(button1, "cell 10 17 29 1");
+            this2.add(separator3, "cell 2 35 80 1");
+            this2.add(scrollPane1, "cell 2 37 85 14");
+            this2.add(label6, "cell 26 40");
 
             //---- adressCheckBox ----
             adressCheckBox.setText("Adress");
             adressCheckBox.setOpaque(false);
-            this2.add(adressCheckBox, "cell 79 44");
+            this2.add(adressCheckBox, "cell 79 45");
 
             //---- idCheckbox ----
             idCheckbox.setText("Personal number");
             idCheckbox.setOpaque(false);
-            this2.add(idCheckbox, "cell 79 51");
+            this2.add(idCheckbox, "cell 79 52");
 
             //---- specialityCheckbox ----
             specialityCheckbox.setText("Speciality");
             specialityCheckbox.setOpaque(false);
-            this2.add(specialityCheckbox, "cell 79 53");
+            this2.add(specialityCheckbox, "cell 79 54");
         }
         add(this2, "cell 0 0");
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
@@ -409,7 +410,7 @@ public class ServiceResearchPanel extends JPanel {
                     return;
                 }
 
-                elementsToDisplay = ReadDataBase.readFromDatabase(selectedProjections, selectConditions(), DataType.Service+ ", " + DataType.Doctor +","+ DataType.Employee, MainControl.conn);
+                elementsToDisplay = ReadDataBase.readFromDatabase(selectedProjections, selectConditions(), DataType.Service, MainControl.conn);
                 addListView();
             }
         }

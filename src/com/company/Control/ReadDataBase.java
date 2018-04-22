@@ -47,7 +47,7 @@ public class ReadDataBase
             if(tableName == DataType.Room)                              return readRoomTable(rs, selectedProjections);
             if(tableName == DataType.Hospital)                          return readHospitalTable(rs, selectedProjections);
             if(tableName == DataType.Appointment)                       return readAppointmentTable(rs, selectedProjections);
-
+            if(tableName == DataType.Service)                           return readServiceTable(rs, selectedProjections);
 
             st.close();
         }
@@ -80,6 +80,27 @@ public class ReadDataBase
         }
 
         return apps.toArray(new Appointment[apps.size()]);
+    }
+    private static ElementHospital[] readServiceTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
+    {
+        ArrayList<Service> services = new ArrayList<Service>();
+        try
+        {
+            while (rs.next())
+            {
+                Integer superviser    = (selectedProjections.get(DataType.Superviser))? rs.getInt(DataType.Superviser) : null;
+                String codeService     = (selectedProjections.get(DataType.Code))? rs.getString(DataType.Code): null ;
+                String name = (selectedProjections.get(DataType.Name))? rs.getString(DataType.Name) : null;
+                String building = (selectedProjections.get(DataType.Building))? rs.getString(DataType.Building) : null;
+                services.add(new Service(codeService, building, superviser, name));
+            }
+        }
+        catch(Exception ex)
+        {
+            JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+        }
+
+        return services.toArray(new Service[services.size()]);
     }
 
     private static ElementHospital[] readHospitalTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
