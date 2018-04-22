@@ -9,7 +9,7 @@ import java.awt.event.KeyEvent;
 public class ViewManager extends JFrame {
 
     private static JTabbedPane tabbedPane = new JTabbedPane();
-    private ConnexionPanel connexionPanel = new ConnexionPanel();
+    private ConnexionManagement connexionManagement = new ConnexionManagement();
     public static NurseManagement nurseManagementPanel = new NurseManagement();
     public static ServiceManagement serviceManagement=new ServiceManagement();
     public static DoctorManagement doctorManagement = new DoctorManagement();
@@ -23,7 +23,7 @@ public class ViewManager extends JFrame {
     public ViewManager()
     {
 
-        tabbedPane.add(connexionPanel);
+        tabbedPane.add(connexionManagement);
         tabbedPane.setMnemonicAt(0, KeyEvent.VK_1);
         setTabbedPanelSize(0, "Connexion");
 
