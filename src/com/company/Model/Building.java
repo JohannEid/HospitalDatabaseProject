@@ -12,7 +12,7 @@ public class Building extends Infrastructure
         this.rooms = rooms;
     }
 
-    public Building(String code, Room[] rooms)
+    public Building(Integer code, Room[] rooms)
     {
         super(code);
         this.rooms = rooms;

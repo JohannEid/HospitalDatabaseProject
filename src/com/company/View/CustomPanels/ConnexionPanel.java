@@ -82,8 +82,8 @@ public class ConnexionPanel extends ImagePanel
         {
             try
             {
-              //  MainControl.conn = new Connexion(dataBaseNameText.getText(), userLoginText.getText(), userPasswordText.getText());
-                MainControl.conn = new Connexion("hopital", "root", "root");
+              MainControl.conn = new Connexion(dataBaseNameText.getText(), userLoginText.getText(), userPasswordText.getText());
+               // MainControl.conn = new Connexion("hopital", "root", "");
                 JOptionPane.showMessageDialog(null , "Successfully connected to "  + dataBaseNameText.getText() + "!!" ,
                         "Connexion successful", JOptionPane.INFORMATION_MESSAGE);
                 MainControl.setConnected(true);

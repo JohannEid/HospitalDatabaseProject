@@ -61,23 +61,23 @@ public class BasicInfo
         String adressDisplay = (adress != null)? " Adress: " + adress :  "";
 
         return nameDisplay + firstNameDisplay + phoneNumberDisplay + adressDisplay;
-        
+
     }
 
     public String formatForUpdate()
     {
-       String setName = (name != " ")?
+        String setName = (name != " ")?
                 QueryBuilder.buildCondition(DataType.Name,name) : "";
-       String setFirstName = (firstName != " ")?
+        String setFirstName = (firstName != " ")?
                 QueryBuilder.buildCondition(DataType.FirstName, firstName)  : "";
-       String setPhone = (phoneNumber != " ")?
+        String setPhone = (phoneNumber != " ")?
                 QueryBuilder.buildCondition(DataType.PhoneNumber,phoneNumber) : "";
-       String setAdress = (adress != " ")?
+        String setAdress = (adress != " ")?
                 QueryBuilder.buildCondition(DataType.Adress, adress): "";
 
         setName += (setName != "" && setFirstName != "")? ", " : " ";
-        setFirstName += (setFirstName != "" && setPhone != "")? ", " : " ";
-        setPhone += (setPhone != "" && setAdress != "")? ", " : " ";
+        setFirstName += ( setPhone != "")? ", " : " ";
+        setPhone += (setAdress != "")? ", " : " ";
         setAdress += " ";
 
         return setName + setFirstName + setPhone + setAdress;

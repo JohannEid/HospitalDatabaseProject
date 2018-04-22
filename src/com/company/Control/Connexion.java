@@ -4,7 +4,7 @@ package com.company.Control;/*
  */
 
 /*
- * 
+ *
  * Librairies importées
  */
 
@@ -12,9 +12,9 @@ import java.sql.*;
 import java.util.ArrayList;
 
 /**
- * 
+ *
  * Connexion a votre BDD locale ou à distance sur le serveur de l'ECE via le tunnel SSH
- * 
+ *
  * @author segado
  */
 public class Connexion {
@@ -54,9 +54,9 @@ public class Connexion {
         Class.forName("com.mysql.jdbc.Driver");
 
         // url de connexion "jdbc:mysql://localhost:3305/usernameECE"
-        String urlDatabase = "jdbc:mysql://localhost/" + nameDatabase;
+        String urlDatabase = "jdbc:mysql://127.0.0.1:3306/" + nameDatabase;
 
-        //création d'une connexion JDBC à la base 
+        //création d'une connexion JDBC à la base
         conn = DriverManager.getConnection(urlDatabase, loginDatabase, passwordDatabase);
 
         // création d'un ordre SQL (statement)
@@ -79,12 +79,11 @@ public class Connexion {
         // Connexion via le tunnel SSH avec le username et le password ECE
         SSHTunnel ssh = new SSHTunnel(usernameECE, passwordECE);
 
-        if (ssh.connect())
-        {
+        if (ssh.connect()) {
             System.out.println("Connexion reussie");
 
             // url de connexion "jdbc:mysql://localhost:3305/usernameECE"
-            String urlDatabase = "jdbc:mysql://localhost:3305/" + usernameECE;
+            String urlDatabase = "jdbc:mysql://127.0.0.1:3305/" + usernameECE;
 
             //création d'une connexion JDBC à la base
             conn = DriverManager.getConnection(urlDatabase, loginDatabase, passwordDatabase);
@@ -164,7 +163,7 @@ public class Connexion {
     /**
      * Methode qui retourne l'ArrayList des champs de la requete en parametre
      * @param requete
-     * @return 
+     * @return
      * @throws SQLException
      */
     public ArrayList remplirChampsRequete(String requete) throws SQLException {
@@ -181,7 +180,7 @@ public class Connexion {
         ArrayList<String> liste;
         liste = new ArrayList<String>();
 
-        // tant qu'il reste une ligne 
+        // tant qu'il reste une ligne
         while (rset.next()) {
             String champs;
             champs = rset.getString(1); // ajouter premier champ
@@ -207,8 +206,8 @@ public class Connexion {
      * @param requeteMaj
      * @throws SQLException
      */
-    public void executeUpdate(String requeteMaj) throws SQLException
-    {
+    public void executeUpdate(String requeteMaj) throws SQLException {
         stmt.executeUpdate(requeteMaj);
     }
 }
+

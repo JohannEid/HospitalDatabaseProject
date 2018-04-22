@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Johann Eid
+ * @authors Johann Eid and Alannah Epaulard
  */
 public class DoctorUpdatePanel extends ImagePanel {
 
@@ -264,7 +264,7 @@ public class DoctorUpdatePanel extends ImagePanel {
         }
         else DataType.mappingAttributeToParam.put(DataType.Num, " ");
 
-        if((String) specialityCombo.getSelectedItem() != "")
+        if(specialityCombo.getSelectedItem() != "")
         {
             DataType.mappingAttributeToParam.put(DataType.Speciality, (String) specialityCombo.getSelectedItem());
         }

@@ -6,7 +6,7 @@ public class Care extends Activity
     private Room room;
     private int numberOfBeds;
 
-    public Care(Patient patient, Service service, Room room, int numberOfBeds)
+    public Care(Integer patient, Service service, Room room, int numberOfBeds)
     {
         super(patient);
         this.service = service;
