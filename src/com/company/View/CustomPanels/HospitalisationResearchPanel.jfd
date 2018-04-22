@@ -1,0 +1,169 @@
+JFDML JFormDesigner: "6.0.2.0.116" Java: "1.8.0_152-release" encoding: "UTF-8"
+
+new FormModel {
+	contentType: "form/swing"
+	root: new FormRoot {
+		add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+			"$layoutConstraints": "hidemode 3"
+			"$columnConstraints": "[fill][fill]"
+			"$rowConstraints": "[][][]"
+		} ) {
+			name: "this"
+			add( new FormContainer( "javax.swing.JPanel", new FormLayoutManager( class net.miginfocom.swing.MigLayout ) {
+				"$layoutConstraints": "hidemode 3"
+				"$columnConstraints": "[fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill][fill]"
+				"$rowConstraints": "[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]"
+			} ) {
+				name: "this2"
+				"preferredSize": new java.awt.Dimension( 1980, 1000 )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label2"
+					"text": "Search information"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 4 43 1"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label12"
+					"text": "Select information "
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 55 4 5 1"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label1"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 15 5 4 1"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label3"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 15 6"
+				} )
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
+					name: "separator2"
+					"text": "Hospitalisation  information"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 8 59 1"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label4"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 12 9 18 1"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label5"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 15 10"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label7"
+					"text": "Patient ID"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 11"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "IDText"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 3 11 42 1"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "IdBox"
+					"text": "Patient ID"
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"borderPaintedFlat": true
+					"opaque": false
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 58 11"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label8"
+					"text": "Service code"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 13"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "serviceText"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 3 13 43 1"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "serviceBox"
+					"text": "Service code"
+					"background": sfield com.jformdesigner.model.FormObject NULL_VALUE
+					"opaque": false
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 58 13"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label9"
+					"text": "Room number"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 15"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "roomText"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 15 44 1"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "roomBox"
+					"text": "Room number"
+					"opaque": false
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 58 15"
+				} )
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsLabel" ) {
+					name: "label13"
+					"textWithMnemonic": "Bed number"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 17"
+				} )
+				add( new FormComponent( "javax.swing.JTextField" ) {
+					name: "BedText"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 2 17 44 1"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "bedBox"
+					"text": "Bed number"
+					"opaque": false
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 58 17"
+				} )
+				add( new FormComponent( "javax.swing.JLabel" ) {
+					name: "label6"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 15 18"
+				} )
+				add( new FormComponent( "javax.swing.JButton" ) {
+					name: "button1"
+					"text": "Submit"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 20 30 1"
+				} )
+				add( new FormComponent( "javax.swing.JCheckBox" ) {
+					name: "allCheckbox"
+					"text": "All"
+					"opaque": false
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 58 20"
+				} )
+				add( new FormComponent( "com.jformdesigner.designer.wrapper.JGoodiesFormsSeparator" ) {
+					name: "separator3"
+					"text": "Search results:"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 45 40 1"
+				} )
+				add( new FormContainer( "javax.swing.JScrollPane", new FormLayoutManager( class javax.swing.JScrollPane ) ) {
+					name: "scrollPane1"
+				}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+					"value": "cell 0 46 68 14"
+				} )
+			}, new FormLayoutConstraints( class net.miginfocom.layout.CC ) {
+				"value": "cell 0 0"
+			} )
+		}, new FormLayoutConstraints( null ) {
+			"location": new java.awt.Point( 0, 0 )
+			"size": new java.awt.Dimension( 400, 300 )
+		} )
+	}
+}
