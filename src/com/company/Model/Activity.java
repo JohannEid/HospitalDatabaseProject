@@ -2,17 +2,17 @@ package com.company.Model;
 
 public abstract class Activity extends ElementHospital
 {
-    private Patient patient;
+    private Integer patient;
 
-    public Activity (Patient patient) {
+    public Activity (Integer patient) {
         this.patient = patient;
     }
 
-    public Patient getPatient() {
+    public Integer getPatient() {
         return patient;
     }
 
-    public void setPatient(Patient patient) {
+    public void setPatient(Integer patient) {
         this.patient = patient;
     }
 

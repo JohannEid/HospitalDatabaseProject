@@ -16,7 +16,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Johann Eid
+ * @authors Johann Eid and Alannah Epaulard
  */
 public class NurseUpdatePanel extends ImagePanel {
 
@@ -295,7 +295,7 @@ public class NurseUpdatePanel extends ImagePanel {
         }
         else DataType.mappingAttributeToParam.put(DataType.CodeService, " ");
 
-        if((String) rotationBox.getSelectedItem() != "")
+        if(rotationBox.getSelectedItem() != "")
         {
             DataType.mappingAttributeToParam.put(DataType.Speciality, (String) rotationBox.getSelectedItem());
         }

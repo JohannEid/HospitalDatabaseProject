@@ -1,9 +1,6 @@
 package com.company.View;
 
-import com.company.View.CustomPanels.ConnexionPanel;
-import com.company.View.CustomPanels.DoctorManagement;
-import com.company.View.CustomPanels.NurseManagement;
-import com.company.View.CustomPanels.PatientManagement;
+import com.company.View.CustomPanels.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -14,8 +11,11 @@ public class ViewManager extends JFrame {
     private static JTabbedPane tabbedPane = new JTabbedPane();
     private ConnexionPanel connexionPanel = new ConnexionPanel();
     private NurseManagement nurseManagementPanel = new NurseManagement();
+    private ServiceManagement serviceManagement=new ServiceManagement();
     private DoctorManagement doctorManagement = new DoctorManagement();
     private PatientManagement patientManagement = new PatientManagement();
+    private RoomManagement roomManagement = new RoomManagement();
+    private HospitalisationManagement hospitalisationManagement = new HospitalisationManagement();
 
 
 
@@ -41,6 +41,23 @@ public class ViewManager extends JFrame {
         tabbedPane.setMnemonicAt(3, KeyEvent.VK_4);
         setTabbedPanelSize(3, "Patients management");
         tabbedPane.setEnabledAt(3, false);
+
+        tabbedPane.add(roomManagement);
+        tabbedPane.setMnemonicAt(4, KeyEvent.VK_4);
+        setTabbedPanelSize(4, "Room management");
+        tabbedPane.setEnabledAt(4, false);
+
+        tabbedPane.add(hospitalisationManagement);
+        tabbedPane.setMnemonicAt(5, KeyEvent.VK_4);
+        setTabbedPanelSize(5, "Care management");
+        tabbedPane.setEnabledAt(5, false);
+
+        tabbedPane.add(serviceManagement);
+        tabbedPane.setMnemonicAt(6, KeyEvent.VK_4);
+        setTabbedPanelSize(6, "Service management");
+        tabbedPane.setEnabledAt(6, false);
+
+
 
 
         tabbedPane.setTabPlacement(SwingConstants.LEFT);

@@ -1,7 +1,3 @@
-/*
- * Created by JFormDesigner on Thu Apr 19 11:17:38 CEST 2018
- */
-
 package com.company.View.CustomPanels;
 
 import com.company.Control.DataType;
@@ -16,13 +12,33 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author Johann Eid
+ * @authors Johann Eid and Alannah Epaulard
  */
-public class RoomUpdatePanel extends ImagePanel {
+public class RoomUpdatePanel extends JPanel {
 
+    private ButtonListener listener;
+    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+    // Generated using JFormDesigner Evaluation license - Alannah Epaulard
+    private JLabel label1;
+    private JLabel label4;
+    private JTextField roomText;
+    private JComponent separator5;
+    private JButton deleteButton;
+    private JLabel label5;
+    private JComponent separator1;
+    private JLabel label7;
+    private JTextField serviceText;
+    private JLabel label8;
+    private JTextField watcherText;
+    private JLabel dsds;
+    private JTextField nbBedsText;
+    private JComponent separator3;
+    private JButton updateButton;
+    private JComponent separator4;
+    private JButton insertButton;
     public RoomUpdatePanel()
     {
-        super("images/room.png");
+        super();
         initComponents();
 
         listener = new ButtonListener();
@@ -34,7 +50,7 @@ public class RoomUpdatePanel extends ImagePanel {
     private void initComponents()
     {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Johann Eid
+        // Generated using JFormDesigner Evaluation license - Alannah Epaulard
         DefaultComponentFactory compFactory = DefaultComponentFactory.getInstance();
         label1 = new JLabel();
         label4 = new JLabel();
@@ -180,29 +196,7 @@ public class RoomUpdatePanel extends ImagePanel {
         add(insertButton, "cell 0 22 2 1");
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
-
-    private ButtonListener listener;
-    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Johann Eid
-    private JLabel label1;
-    private JLabel label4;
-    private JTextField roomText;
-    private JComponent separator5;
-    private JButton deleteButton;
-    private JLabel label5;
-    private JComponent separator1;
-    private JLabel label7;
-    private JTextField serviceText;
-    private JLabel label8;
-    private JTextField watcherText;
-    private JLabel dsds;
-    private JTextField nbBedsText;
-    private JComponent separator3;
-    private JButton updateButton;
-    private JComponent separator4;
-    private JButton insertButton;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
-
 
     private void selectUpdates()
     {

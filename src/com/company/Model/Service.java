@@ -6,7 +6,7 @@ public class Service extends Infrastructure
     private Superviser superviser;
     private String name;
 
-    public Service(String code, Building hostBuilding, Superviser superviser, String name)
+    public Service(Integer code, Building hostBuilding, Superviser superviser, String name)
     {
         super(code);
         this.hostBuilding = hostBuilding;

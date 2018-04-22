@@ -42,8 +42,8 @@ public class DataType
 
         mappingTableToId.put(DataType.Doctor, DataType.Num);
         mappingTableToId.put(DataType.Employee, DataType.Num);
-        mappingTableToId.put(DataType.Room, DataType.NumRoom + "," + DataType.Code);
-        mappingTableToId.put(DataType.Hospital,  DataType.Num);
+        mappingTableToId.put(DataType.Room, DataType.NumRoom);
+        mappingTableToId.put(DataType.Hospital,  DataType.NumPatient);
         mappingTableToId.put(DataType.Nurse, DataType.Num );
         mappingTableToId.put(DataType.Patient, DataType.Num);
         mappingTableToId.put(DataType.Service, DataType.Code);

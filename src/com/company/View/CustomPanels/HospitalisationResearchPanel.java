@@ -422,3 +422,4 @@ public class HospitalisationResearchPanel extends ImagePanel
         return selectTab;
     }
 }
+

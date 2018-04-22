@@ -43,6 +43,95 @@ public class UpdateDataBase
         if(tables == DataType.Employee + ", " + DataType.Doctor) updateDoctorDataBase();
         if(tables == DataType.Employee + ", " + DataType.Nurse) upateNurseDataBase();
         if(tables == DataType.Patient) updatePatientDataBase();
+        if(tables == DataType.Room) updateRoomDataBase();
+        if(tables == DataType.Hospital) updateHospitalDataBase();
+
+    }
+
+    private static void updateHospitalDataBase()
+    {
+        Integer numRoom = null;
+        Integer numPatient = null;
+        Integer numBed = null;
+        try
+        {
+            numRoom =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumRoom));
+            numPatient =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumPatient));
+            numBed =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.Bed));
+        }
+
+        catch (Exception ex)
+        {
+        }
+        Hospitalization hospitalization = new Hospitalization(numPatient, DataType.mappingAttributeToParam.get(DataType.CodeService), numRoom, numBed );
+        updateHospitalTable(hospitalization);
+    }
+
+    private static void updateHospitalTable(Hospitalization hospitalization)
+    {
+        try {
+
+
+            String queryDoctor = SQLKeyWords.UpdateKeyWord + DataType.Hospital + " " + SQLKeyWords.SetKeyWord +
+                    hospitalization.formatForUpdate()
+                    + SQLKeyWords.WhereKeyWord + QueryBuilder.buildCondition(DataType.NumPatient, DataType.mappingAttributeToParam.get(DataType.NumPatient)) + ";";
+
+            PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
+
+            int rowsUpdated = statement.executeUpdate();
+            if (rowsUpdated > 0) {
+                JOptionPane.showMessageDialog(null, "Successfully update in Hospitalisation table" +
+                        DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
+        }
+
+    }
+
+    private static void updateRoomDataBase()
+    {
+        Integer numRoom = null;
+        Integer watcherId = null;
+        Integer numBeds = null;
+        try
+        {
+            numRoom =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumRoom));
+            watcherId =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.Watcher));
+            numBeds =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumbOfBeds));
+        }
+
+        catch (Exception ex)
+        {
+        }
+        Room room = new Room(numRoom, DataType.mappingAttributeToParam.get(DataType.Service), watcherId, numBeds);
+        updateRoomTable(room);
+    }
+
+    private static void updateRoomTable(Room room)
+    {
+
+        try {
+
+
+            String queryDoctor = SQLKeyWords.UpdateKeyWord + DataType.Room + " " + SQLKeyWords.SetKeyWord +
+                    room.formatForUpdate()
+                    + SQLKeyWords.WhereKeyWord + QueryBuilder.buildCondition(DataType.NumRoom, DataType.mappingAttributeToParam.get(DataType.NumRoom)) + ";";
+
+            PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
+
+            int rowsUpdated = statement.executeUpdate();
+            if (rowsUpdated > 0) {
+                JOptionPane.showMessageDialog(null, "Successfully update in Room table" +
+                        DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
+        }
 
     }
 
@@ -57,8 +146,6 @@ public class UpdateDataBase
         updatePatientTable(patient);
     }
 
-
-
     private static void upateNurseDataBase()
     {
 
@@ -66,7 +153,7 @@ public class UpdateDataBase
 
         try
         {
-             sal =  Double.parseDouble(DataType.mappingAttributeToParam.get(DataType.Salary));
+            sal =  Double.parseDouble(DataType.mappingAttributeToParam.get(DataType.Salary));
         }
         catch (NumberFormatException e)
         {
@@ -91,7 +178,78 @@ public class UpdateDataBase
         if(tables == DataType.Employee + ", " + DataType.Doctor) insertDoctorDataBase();
         if(tables == DataType.Employee + ", " + DataType.Nurse) insertNurseDataBase();
         if(tables == DataType.Patient) insertPatientDataBase();
+        if(tables == DataType.Room) insertRoomDataBase();
+        if(tables == DataType.Hospital) insertHospitalDataBase();
     }
+
+    private static void insertHospitalDataBase()
+    {
+        Integer numRoom = null;
+        Integer numPatient = null;
+        Integer numBed = null;
+        try
+        {
+            numRoom =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumRoom));
+            numPatient =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumPatient));
+            numBed =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.Bed));
+        }
+
+        catch (Exception ex)
+        {
+        }
+        Hospitalization hospitalization = new Hospitalization(numPatient, DataType.mappingAttributeToParam.get(DataType.CodeService), numRoom, numBed );
+        insertHospitalTable(hospitalization);
+
+    }
+
+    private static void insertHospitalTable(Hospitalization hospitalization)
+    {
+        try
+        {
+
+
+
+            String queryDoctor = SQLKeyWords.InsertKeyWord +  SQLKeyWords.IntoKeyWord + DataType.Hospital + " " +
+                    hospitalization.formatForInsert() + ";";
+
+            PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
+
+            int rowsUpdated = statement.executeUpdate();
+            if (rowsUpdated > 0)
+            {
+                JOptionPane.showMessageDialog(null, "Successfully inserted in hospitalisation table" +
+                        DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+
+
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+    private static void insertRoomDataBase()
+    {
+        Integer numRoom = null;
+        Integer watcherId = null;
+        Integer numBeds = null;
+        try
+        {
+            numRoom =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumRoom));
+            watcherId =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.Watcher));
+            numBeds =  Integer.parseInt(DataType.mappingAttributeToParam.get(DataType.NumbOfBeds));
+        }
+
+        catch (Exception ex)
+        {
+        }
+        Room room = new Room(numRoom, DataType.mappingAttributeToParam.get(DataType.Service), watcherId, numBeds);
+        insertRoomTable(room);
+
+    }
+
+
 
 
     public static void updateDoctorDataBase()
@@ -156,7 +314,7 @@ public class UpdateDataBase
 
 
         insertIntoEmployeTable(nurse);
-         insertIntoNurseTable(nurse);
+        insertIntoNurseTable(nurse);
     }
 
 
@@ -273,8 +431,8 @@ public class UpdateDataBase
         try
         {
 
-                ArrayList<String> values     = new ArrayList<>();
-                ArrayList<String> parameters = new ArrayList<>();
+            ArrayList<String> values     = new ArrayList<>();
+            ArrayList<String> parameters = new ArrayList<>();
 
             parameters.add(DataType.Num);
             values.add(DataType.mappingAttributeToParam.get(DataType.Num));
@@ -286,22 +444,22 @@ public class UpdateDataBase
             }
 
 
-                String queryDoctor = SQLKeyWords.InsertKeyWord +  SQLKeyWords.IntoKeyWord + DataType.Doctor + " " +
-                         QueryBuilder.buildValuesQuery(parameters) + SQLKeyWords.ValuesKeyWord
-                        + QueryBuilder.buildValuesQuery(values) + ";";
+            String queryDoctor = SQLKeyWords.InsertKeyWord +  SQLKeyWords.IntoKeyWord + DataType.Doctor + " " +
+                    QueryBuilder.buildValuesQuery(parameters) + SQLKeyWords.ValuesKeyWord
+                    + QueryBuilder.buildValuesQuery(values) + ";";
 
-                PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
+            PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryDoctor);
 
-                int rowsUpdated = statement.executeUpdate();
-                if (rowsUpdated > 0)
-                {
-                    JOptionPane.showMessageDialog(null, "Successfully update in doctor table" +
-                            DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
-                }
+            int rowsUpdated = statement.executeUpdate();
+            if (rowsUpdated > 0)
+            {
+                JOptionPane.showMessageDialog(null, "Successfully update in doctor table" +
+                        DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
+            }
         }
 
 
-            catch (Exception ex)
+        catch (Exception ex)
         {
             JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
         }
@@ -371,7 +529,7 @@ public class UpdateDataBase
             {
 
                 String queryNusrse = SQLKeyWords.InsertKeyWord + SQLKeyWords.IntoKeyWord + DataType.Nurse + " " +
-                      nurse.formatForInsert() + ";";
+                        nurse.formatForInsert() + ";";
 
                 PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryNusrse);
 
@@ -391,4 +549,30 @@ public class UpdateDataBase
         }
     }
 
+    private static void insertRoomTable(Room room)
+    {
+        try
+        {
+
+            String queryNusrse = SQLKeyWords.InsertKeyWord + SQLKeyWords.IntoKeyWord + DataType.Room + " " +
+                    room.formatForInsert() + ";";
+
+            PreparedStatement statement = MainControl.conn.conn.prepareStatement(queryNusrse);
+
+            int rowsUpdated = statement.executeUpdate();
+            if (rowsUpdated > 0) {
+                JOptionPane.showMessageDialog(null, "Successfully inserted in room table" +
+                        DataType.mappingAttributeToParam.get(DataType.Num), "Success!", JOptionPane.INFORMATION_MESSAGE);
+            }
+        }
+
+
+        catch (Exception ex)
+        {
+            JOptionPane.showMessageDialog(null, ex.getMessage(), "Request error", JOptionPane.ERROR_MESSAGE);
+        }
+    }
+
+
 }
+

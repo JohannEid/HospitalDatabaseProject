@@ -1,41 +1,49 @@
 /*
- * Created by JFormDesigner on Thu Apr 19 11:17:38 CEST 2018
+ * Created by JFormDesigner on Sun Apr 22 01:47:29 CEST 2018
  */
 
 package com.company.View.CustomPanels;
 
-import com.company.Control.DataType;
-import com.company.Control.UpdateDataBase;
 import com.jgoodies.forms.factories.DefaultComponentFactory;
 import net.miginfocom.swing.MigLayout;
 
 import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * @authors Johann Eid and Alannah Epaulard
  */
-public class PatientUpdatePanel extends ImagePanel {
-
-    public PatientUpdatePanel()
-    {
-        super("images/patient.png");
+public class ServiceUpdatePanel extends JPanel {
+    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
+    // Generated using JFormDesigner Evaluation license - Alannah Epaulard
+    private JLabel label1;
+    private JLabel label4;
+    private JTextField idText;
+    private JComponent separator5;
+    private JButton deleteButton;
+    private JLabel label5;
+    private JComponent separator1;
+    private JLabel label7;
+    private JTextField nameText;
+    private JLabel label8;
+    private JTextField firstNameText;
+    private JLabel label9;
+    private JTextField adressText;
+    private JLabel label10;
+    private JTextField phoneNumberText;
+    private JComponent separator2;
+    private JLabel label3;
+    private JComboBox insuranceCombo;
+    private JComponent separator3;
+    private JButton updateButton;
+    private JComponent separator4;
+    private JButton insertButton;
+    public ServiceUpdatePanel() {
         initComponents();
-
-        listener = new ButtonListener();
-        populateComboBox();
-        deleteButton.addActionListener(listener);
-        insertButton.addActionListener(listener);
-        updateButton.addActionListener(listener);
     }
 
-    private void initComponents()
-    {
+    private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Johann Eid
+        // Generated using JFormDesigner Evaluation license - Alannah Epaulard
         DefaultComponentFactory compFactory = DefaultComponentFactory.getInstance();
         label1 = new JLabel();
         label4 = new JLabel();
@@ -144,7 +152,7 @@ public class PatientUpdatePanel extends ImagePanel {
             "[]"));
 
         //---- label1 ----
-        label1.setText("Update doctor database");
+        label1.setText("Update Service database");
         add(label1, "cell 0 0 2 1");
 
         //---- label4 ----
@@ -196,129 +204,5 @@ public class PatientUpdatePanel extends ImagePanel {
         add(insertButton, "cell 0 28 2 1");
         // JFormDesigner - End of component initialization  //GEN-END:initComponents
     }
-
-    private ButtonListener listener;
-    // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Johann Eid
-    private JLabel label1;
-    private JLabel label4;
-    private JTextField idText;
-    private JComponent separator5;
-    private JButton deleteButton;
-    private JLabel label5;
-    private JComponent separator1;
-    private JLabel label7;
-    private JTextField nameText;
-    private JLabel label8;
-    private JTextField firstNameText;
-    private JLabel label9;
-    private JTextField adressText;
-    private JLabel label10;
-    private JTextField phoneNumberText;
-    private JComponent separator2;
-    private JLabel label3;
-    private JComboBox insuranceCombo;
-    private JComponent separator3;
-    private JButton updateButton;
-    private JComponent separator4;
-    private JButton insertButton;
     // JFormDesigner - End of variables declaration  //GEN-END:variables
-
-    private void populateComboBox()
-    {
-        insuranceCombo.addItem("");
-        insuranceCombo.addItem("MNAM");
-        insuranceCombo.addItem("LMDE");
-        insuranceCombo.addItem("MNH");
-        insuranceCombo.addItem("MAAF");
-        insuranceCombo.addItem("MGEN");
-        insuranceCombo.addItem("MMA");
-        insuranceCombo.addItem("CNAMTS");
-        insuranceCombo.addItem("CCVRP");
-        insuranceCombo.addItem("MNFTC");
-        insuranceCombo.addItem("MAS");
-        insuranceCombo.addItem("AG2R");
-        insuranceCombo.addItem("MGSP");
-    }
-
-    private void selectUpdates()
-    {
-        if(!phoneNumberText.getText().isEmpty())
-        {
-            DataType.mappingAttributeToParam.put(DataType.PhoneNumber, phoneNumberText.getText());
-        }
-        else DataType.mappingAttributeToParam.put(DataType.PhoneNumber, " ");
-
-        if(!nameText.getText().isEmpty())
-        {
-            DataType.mappingAttributeToParam.put(DataType.Name, nameText.getText());
-        }
-        else DataType.mappingAttributeToParam.put(DataType.Name, " ");
-
-        if(!firstNameText.getText().isEmpty())
-        {
-            DataType.mappingAttributeToParam.put(DataType.FirstName, firstNameText.getText());
-
-        }
-        else DataType.mappingAttributeToParam.put(DataType.FirstName, " ");
-
-        if(!adressText.getText().isEmpty())
-        {
-            DataType.mappingAttributeToParam.put(DataType.Adress, adressText.getText());
-
-        }
-        else DataType.mappingAttributeToParam.put(DataType.Adress, " ");
-
-        if(!idText.getText().isEmpty())
-        {
-            DataType.mappingAttributeToParam.put(DataType.Num, idText.getText());
-        }
-        else DataType.mappingAttributeToParam.put(DataType.Num, " ");
-
-        if(insuranceCombo.getSelectedItem() != "")
-        {
-            DataType.mappingAttributeToParam.put(DataType.Insurance, (String) insuranceCombo.getSelectedItem());
-        }
-        else DataType.mappingAttributeToParam.put(DataType.Insurance, " ");
-    }
-
-    class ButtonListener implements ActionListener
-    {
-        public void actionPerformed(ActionEvent e)
-        {
-            if (e.getSource().equals(deleteButton))
-            {
-                if(idText.getText().isEmpty())
-                {
-                    JOptionPane.showMessageDialog(null , "Please enter the patient's ID" ,"Delete error", JOptionPane.ERROR_MESSAGE);
-                    return;
-                }
-                List<String> tables = Arrays.asList(DataType.Patient);
-
-                UpdateDataBase.deleteFromDataBase(idText.getText(), tables);
-            }
-
-            if (e.getSource().equals(updateButton))
-            {
-                if(idText.getText().isEmpty())
-                {
-                    JOptionPane.showMessageDialog(null , "Please enter the patient's ID" ,"Update error", JOptionPane.ERROR_MESSAGE);
-                    return;
-                }
-                selectUpdates();
-                UpdateDataBase.updateDataBase(DataType.Patient);
-            }
-
-            if (e.getSource().equals(insertButton))
-            {
-                if(idText.getText().isEmpty())
-                {
-                    JOptionPane.showMessageDialog(null , "Please enter the patient's ID" ,"Insert error", JOptionPane.ERROR_MESSAGE);
-                    return;
-                }
-                selectUpdates();
-                UpdateDataBase.insertIntoDataBase(DataType.Patient);
-            }
-        }
-    }
 }

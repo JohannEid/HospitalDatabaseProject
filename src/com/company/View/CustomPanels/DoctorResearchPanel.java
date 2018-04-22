@@ -21,12 +21,12 @@ import java.awt.event.ItemListener;
 import java.util.ArrayList;
 
 /**
- * @author unknown
+ * @authors Johann Eid and Alannah Epaulard
  */
 public class DoctorResearchPanel extends ImagePanel {
     private ElementHospital[] elementsToDisplay;
     // JFormDesigner - Variables declaration - DO NOT MODIFY  //GEN-BEGIN:variables
-    // Generated using JFormDesigner Evaluation license - Johann Eid
+    // Generated using JFormDesigner Evaluation license - Alannah Epaulard
     private JLabel label2;
     private JLabel label12;
     private JLabel label1;
@@ -87,7 +87,7 @@ public class DoctorResearchPanel extends ImagePanel {
 
     private void initComponents() {
         // JFormDesigner - Component initialization - DO NOT MODIFY  //GEN-BEGIN:initComponents
-        // Generated using JFormDesigner Evaluation license - Johann Eid
+        // Generated using JFormDesigner Evaluation license - Alannah Epaulard
         DefaultComponentFactory compFactory = DefaultComponentFactory.getInstance();
         label2 = new JLabel();
         label12 = new JLabel();
@@ -442,7 +442,7 @@ public class DoctorResearchPanel extends ImagePanel {
                 selectTab.add(QueryBuilder.buildCondition(DataType.Num, idText.getText()));
 
             }
-            if((String) specialityCombo.getSelectedItem() != "")
+            if(specialityCombo.getSelectedItem() != "")
             {
                 selectTab.add(QueryBuilder.buildCondition(DataType.Speciality, (String)specialityCombo.getSelectedItem()));
 

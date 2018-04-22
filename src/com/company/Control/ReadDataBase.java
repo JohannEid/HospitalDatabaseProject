@@ -41,9 +41,11 @@ public class ReadDataBase
         {
             Statement st = conn.conn.createStatement();
             ResultSet rs = st.executeQuery(query);
-            if(tableName == DataType.Employee + ", " + DataType.Doctor)  return readDoctorTable(rs, selectedProjections);
+            if(tableName == DataType.Employee + ", " + DataType.Doctor) return readDoctorTable(rs, selectedProjections);
             if(tableName == DataType.Employee + ", " + DataType.Nurse)  return readNurseTable(rs, selectedProjections);
             if(tableName == DataType.Patient)                           return readPatientTable(rs, selectedProjections);
+            if(tableName == DataType.Room)                              return readRoomTable(rs, selectedProjections);
+            if(tableName == DataType.Hospital)                          return readHospitalTable(rs, selectedProjections);
 
 
             st.close();
@@ -54,6 +56,54 @@ public class ReadDataBase
         }
 
         return new ElementHospital[10];
+    }
+
+    private static ElementHospital[] readHospitalTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
+    {
+        ArrayList<Hospitalization> hospitalizations= new ArrayList<Hospitalization>();
+        try
+        {
+            while (rs.next())
+            {
+
+                String codeService = (selectedProjections.get(DataType.CodeService))? rs.getString(DataType.CodeService) : null;
+                Integer numPatient    = (selectedProjections.get(DataType.NumPatient))? rs.getInt(DataType.NumPatient) : null;
+                Integer roomNumber     = (selectedProjections.get(DataType.NumRoom))? rs.getInt(DataType.NumRoom): null ;
+                Integer bedNumber       = (selectedProjections.get(DataType.Bed))? rs.getInt(DataType.Bed) : null;
+
+                hospitalizations.add(new Hospitalization(numPatient, codeService, roomNumber, bedNumber));
+            }
+        }
+        catch(Exception ex)
+        {
+            JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+        }
+
+        return hospitalizations.toArray(new Hospitalization[hospitalizations.size()]);
+    }
+
+    private static ElementHospital[] readRoomTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
+    {
+        ArrayList<Room> rooms= new ArrayList<Room>();
+        try
+        {
+            while (rs.next())
+            {
+
+                String codeService = (selectedProjections.get(DataType.CodeService))? rs.getString(DataType.CodeService) : null;
+                Integer watcher    = (selectedProjections.get(DataType.Watcher))? rs.getInt(DataType.Watcher) : null;
+                Integer nbBeds     = (selectedProjections.get(DataType.NumbOfBeds))? rs.getInt(DataType.NumbOfBeds): null ;
+                Integer code       = (selectedProjections.get(DataType.NumRoom))? rs.getInt(DataType.NumRoom) : null;
+
+                rooms.add(new Room(code, codeService, watcher, nbBeds));
+            }
+        }
+        catch(Exception ex)
+        {
+            JOptionPane.showMessageDialog(null ,ex.getMessage() ,"Connexion error", JOptionPane.ERROR_MESSAGE);
+        }
+
+        return rooms.toArray(new Room[rooms.size()]);
     }
 
     private static ElementHospital[] readPatientTable(ResultSet rs, HashMap<String,Boolean> selectedProjections)
@@ -138,7 +188,7 @@ public class ReadDataBase
 
     private static HashMap<String, Boolean> buildDictionnay(ArrayList<String> projections)
     {
-        boolean initBolean = (projections.get(0) == DataType.SelectAll)? true : false;
+        boolean initBolean = projections.get(0) == DataType.SelectAll;
         HashMap<String, Boolean> hm = new HashMap<String, Boolean>();
         hm.put(DataType.CodeService, initBolean);
         hm.put(DataType.Num, initBolean);
